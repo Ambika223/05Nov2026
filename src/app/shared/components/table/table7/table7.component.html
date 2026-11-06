@@ -1,0 +1,30 @@
+<p>table7 works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center bg-success text-white p-3">Order Table</h3>
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>OrderId</th>
+                        <th>CustomerName</th>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let order of orderArr">
+                        <td>{{order.orderId}}</td>
+                        <td>{{order.customerName}}</td>
+                        <td>{{order.product}}</td>
+                        <td>{{order.amount}}</td>
+                        <td>{{order.status}}</td>
+                        <td>{{order.date}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

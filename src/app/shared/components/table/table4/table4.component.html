@@ -1,0 +1,32 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table">
+                <table class="table table-bordered text-center bg-primary">
+                    <thead>
+                        <tr>
+                            <th>Course Id</th>
+                            <th>CourseName</th>
+                            <th>Duration</th>
+                            <th>Fees</th>
+                            <th>Mode</th>
+                            <th>IsActive</th>
+                            <th>Trainer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let course of courseArr">
+                            <td>{{course.courseId}}</td>
+                            <td>{{course.courseName}}</td>
+                            <td>{{course.duration}}</td>
+                            <td>{{course.fees}}</td>
+                            <td>{{course.mode}}</td>
+                            <td>{{course.isActive}}</td>
+                            <td>{{course.trainer}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

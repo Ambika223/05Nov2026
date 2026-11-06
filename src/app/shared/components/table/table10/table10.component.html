@@ -1,0 +1,31 @@
+<!-- <p>table10 works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered text-center bg-info">
+                <thead>
+                    <tr>
+                        <th>VehicleId</th>
+                        <th>Brand</th>
+                        <th>Model</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                        <th>IsAvailable</th>
+                        <th>Fuel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let vehicle of vehicleArr">
+                        <td>{{vehicle.vehicleId}}</td>
+                        <td>{{vehicle.brand}}</td>
+                        <td>{{vehicle.model}}</td>
+                        <td>{{vehicle.type}}</td>
+                        <td>{{vehicle.price}}</td>
+                        <td>{{vehicle.isAvailable}}</td>
+                        <td>{{vehicle.fuel}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

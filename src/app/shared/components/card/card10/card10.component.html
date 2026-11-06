@@ -1,0 +1,23 @@
+<p>card10 works!</p>
+<h3 class="text-center bg-info">card of cloud</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor="let cloud of cloud1">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>{{cloud.topic}}</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{cloud.info}}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                    <button mat-mini-fab color="warn"
+                        aria-label="Example icon button with a delete icon"><mat-icon>delete</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

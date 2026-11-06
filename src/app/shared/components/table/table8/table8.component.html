@@ -1,0 +1,36 @@
+<!-- <p>table8 works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead class="bg-secondary text-white">
+                    <tr>
+                        <th>MovieId</th>
+                        <th>Title</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>ReleaseYear</th>
+                        <th>IsHit</th>
+                        <th>Language</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let movie of movieArr">
+                        <td>{{movie.movieId}}</td>
+                        <td>{{movie.title}}</td>
+                        <td>{{movie.genre}}</td>
+                        <td>{{movie.rating}}</td>
+                        <td>{{movie.releaseYear}}</td>
+                        <td class="text-center">
+                            <span class="badge" [ngClass]="{
+                                'bg-primary':movie.isHit,
+                                'bg-danger':!movie.isHit
+                            }">{{movie.isHit?"Yes":"No"}}</span>
+                        </td>
+                        <td>{{movie.language}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

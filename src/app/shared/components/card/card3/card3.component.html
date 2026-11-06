@@ -1,0 +1,24 @@
+<!-- <p>card3 works!</p> -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor="let robotics of roboticsArr">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>{{robotics.module}}</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{robotics.summary}}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+                        <span class="material-icons" aria-hidden="true">edit</span>
+                    </button>
+
+                    <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                        <span class="material-icons" aria-hidden="true">delete</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

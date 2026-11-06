@@ -1,0 +1,24 @@
+<p>card6 works!</p>
+<h2 class="text-center bg-dark text-white">psychology Card</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let psychology of psychology1">
+      <div class="card h-100">
+        <div class="card-header">
+          <h3>{{psychology.field}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{psychology.concept}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

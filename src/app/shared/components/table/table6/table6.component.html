@@ -1,0 +1,32 @@
+<!-- <p>table6 works!</p> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered text-center">
+                <thead class="bg-primary">
+                    <tr>
+                        <th>CustId</th>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>IsPrime</th>
+                        <th>contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cust of customerArr">
+                        <td>{{cust.custId}}</td>
+                        <td>{{cust.name}}</td>
+                        <td>{{cust.city}}</td>
+                        <td>{{cust.age}}</td>
+                        <td>{{cust.email}}</td>
+                        <td>{{cust.isPrime}}</td>
+                        <td>{{cust.contact}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

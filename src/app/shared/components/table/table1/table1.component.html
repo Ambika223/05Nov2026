@@ -1,0 +1,44 @@
+<!-- <p>table1 works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="table">
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <th>EmpId</th>
+                            <th>EmpName</th>
+                            <th>Designation</th>
+                            <th>Department</th>
+                            <th>Salary</th>
+                            <th>IsPermanent</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let emp of empArrs">
+                            <td>{{emp.empId}}</td>
+                            <td>{{emp.empName}}</td>
+                            <td>{{emp.designation}}</td>
+                            <td>{{emp.department}}</td>
+                            <td>{{emp.salary}}</td>
+                            <td>{{emp.isPermanent}}</td>
+                            <td>{{emp.email}}</td>
+                            <td>{{emp.contact}}</td>
+                            <td><button mat-mini-fab color="primary"
+                                    aria-label="Example icon button with a delete icon">
+                                    <mat-icon>edit</mat-icon>
+                                </button></td>
+                            <td> <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                                    <mat-icon>delete</mat-icon>
+                                </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

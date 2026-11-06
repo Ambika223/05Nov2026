@@ -1,0 +1,49 @@
+<!-- <p>table3 works!</p> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Prod Id</th>
+                            <th>ProdName</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>IsAvailable</th>
+                            <th>Brand</th>
+                            <th>Edit</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let prd of products;let i=index">
+                            <td>{{i+1}}</td>
+                            <td>{{prd.prodId}}</td>
+                            <td>{{prd.prodName}}</td>
+                            <td>{{prd.category}}</td>
+                            <td>{{prd.price}}</td>
+                            <td>{{prd.stock}}</td>
+                            <td class="text-center"><span class="badge p-2" [ngClass]="{
+                                    'badge-danger':!prd.isAvailable,
+                                    'badge-success':prd.isAvailable
+                                }">
+                                    {{prd.isAvailable?"Yes":"No"}}</span></td>
+                            <td>{{prd.brand}}</td>
+                            <td><button mat-mini-fab color="primary"
+                                    aria-label="Example icon button with a delete icon">
+                                    <mat-icon>edit</mat-icon>
+                                </button></td>
+                            <td><button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                                    <mat-icon>delete</mat-icon>
+                                </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

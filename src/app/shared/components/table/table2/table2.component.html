@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="table">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>RollNo</th>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Year</th>
+                            <th>Percentage</th>
+                            <th>IsPassed</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let std of studentArrs">
+                            <td>{{std.rollNo}}</td>
+                            <td>{{std.name}}</td>
+                            <td>{{std.course}}</td>
+                            <td>{{std.year}}</td>
+                            <td>{{std.percentage}}</td>
+                            <td>{{std.isPassed}}</td>
+                            <td>{{std.email}}</td>
+                            <td>{{std.contact}}</td>
+                            <td><button mat-mini-fab color="primary"
+                                    aria-label="Example icon button with a delete icon">
+                                    <mat-icon>edit</mat-icon>
+                                </button></td>
+                            <td><button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                                    <mat-icon>delete</mat-icon>
+                                </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

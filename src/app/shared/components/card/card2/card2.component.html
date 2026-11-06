@@ -1,0 +1,27 @@
+<!-- <p>card2 works!</p> -->
+
+
+<h3 class="bg-success text-center">Math Arr Cards</h3>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor="let math of mathArr">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h3>{{math.concept}}</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{math.explain}}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+
+                    <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

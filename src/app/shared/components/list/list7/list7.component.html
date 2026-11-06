@@ -1,0 +1,12 @@
+<!-- <p>list7 works!</p> -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h4 style="font-size: 18px;">{{animalsText}}</h4>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let animal of animals;let i=index"
+                    [ngClass]="(i+1)%2!==0 ? 'bg-info':'bg-dark'">{{animal}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

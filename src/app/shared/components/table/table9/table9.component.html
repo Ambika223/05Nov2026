@@ -1,0 +1,31 @@
+<!-- <p>table9 works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered text-center bg-success">
+                <thead>
+                    <tr>
+                        <th>TeacherId</th>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Experience</th>
+                        <th>Salary</th>
+                        <th>IsFullTime</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let teacher of teacherArr">
+                        <td>{{teacher.teacherId}}</td>
+                        <td>{{teacher.name}}</td>
+                        <td>{{teacher.subject}}</td>
+                        <td>{{teacher.experience}}</td>
+                        <td>{{teacher.salary}}</td>
+                        <td>{{teacher.isFullTime}}</td>
+                        <td>{{teacher.email}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

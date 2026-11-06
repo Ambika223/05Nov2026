@@ -1,0 +1,25 @@
+<p>card1 works!</p>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4" *ngFor="let ai of aiArrs">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h2>{{ai.topic}}</h2>
+                </div>
+                <div class="card-body">
+                    <p>{{ai.details}}</p>
+
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button mat-mini-fab color="primary" aria-label="Edit">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+
+                    <button mat-mini-fab color="warn" aria-label="Delete">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
