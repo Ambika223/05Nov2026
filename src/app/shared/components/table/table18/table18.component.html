@@ -1,0 +1,38 @@
+<!-- <p>table18 works!</p> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <thead style="background-color: coral">
+                        <tr>
+                            <th>MobileId</th>
+                            <th>Brand</th>
+                            <th>Model</th>
+                            <th>Price</th>
+                            <th>Ram</th>
+                            <th>Storage</th>
+                            <th>IsAvailable</th>
+                            <th>Os</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let mobile of mobiles;let i=index">
+                            <td>{{i+1}}</td>
+                            <td>{{mobile.brand}}</td>
+                            <td>{{mobile.model}}</td>
+                            <td>{{mobile.price}}</td>
+                            <td>{{mobile.ram}}</td>
+                            <td>{{mobile.storage}}</td>
+                            <td><span style="font-size: 12px;" class="badge text-white" [ngClass]="{
+                                'bg-success':mobile.isAvailable,
+                                'bg-danger':!mobile.isAvailable
+                            }">{{mobile.isAvailable?"Available":"Not Available"}}</span></td>
+                            <td>{{mobile.os}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

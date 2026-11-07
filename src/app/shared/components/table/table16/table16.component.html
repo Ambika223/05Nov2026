@@ -1,0 +1,40 @@
+<!-- <p>table16 works!</p> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center bg-light">
+                    <thead>
+                        <tr>
+                            <th>ProjectId</th>
+                            <th>Title</th>
+                            <th>Client</th>
+                            <th>Budget</th>
+                            <th>Status</th>
+                            <th>TeamSize</th>
+                            <th>IsCritical</th>
+                            <th>Deadline</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let project of projects">
+                            <td>{{project.projectId}}</td>
+                            <td>{{project.title}}</td>
+                            <td>{{project.client}}</td>
+                            <td>{{project.budget}}</td>
+                            <td>{{project.status}}</td>
+                            <td>{{project.teamSize}}</td>
+                            <td style="font-size:16px"><span class="badge" [ngClass]="{
+                                'bg-success':project.isCritical,
+                                'bg-danger':!project.isCritical
+                            }">{{project.isCritical?"Yes":"No"}}</span></td>
+                            <td>{{project.deadline}}</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

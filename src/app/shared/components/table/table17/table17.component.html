@@ -1,0 +1,36 @@
+<!-- <p>table17 works!</p> -->
+
+<div class="container">
+    <h3 class="text-center bg-danger">City Table</h3>
+    <div class="row">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped text-center">
+                <thead>
+                    <tr>
+                        <th>CityId</th>
+                        <th>Name</th>
+                        <th>State</th>
+                        <th>Population</th>
+                        <th>IsMetro</th>
+                        <th>Pincode</th>
+                        <th>FamousFor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let city of city1; let i=index">
+                        <td>{{i+1}}</td>
+                        <td>{{city.name}}</td>
+                        <td>{{city.state}}</td>
+                        <td>{{city.population}}</td>
+                        <td><Span class="badge" [ngClass]="{
+                            'bg-success':city.isMetro,
+                            'bg-danger':!city.isMetro
+                        }">{{city.isMetro?"Yes":"No"}}</Span></td>
+                        <td>{{city.pincode}}</td>
+                        <td>{{city.famousFor}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

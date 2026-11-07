@@ -1,0 +1,41 @@
+<!-- <p>table19 works!</p> -->
+
+<div class="container">
+    <h3 class="text-center p-3 mt-3 bg-primary">Member Table</h3>
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <thead style="background-color: hotpink">
+                        <tr>
+                            <th>MemberId</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Membership</th>
+                            <th>BooksIssued</th>
+                            <th>IsActive</th>
+                            <th>JoinDate</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let member of members; let i=index">
+                            <td>{{i+1}}</td>
+                            <td>{{member.name}}</td>
+                            <td>{{member.age}}</td>
+                            <td>{{member.membership}}</td>
+                            <td>{{member.booksIssued}}</td>
+                            <td><span style="font-size:14px" class="badge" [ngClass]="{
+                                 'bg-success':member.isActive,
+                                 'bg-danger':!member.isActive
+                               } ">{{member.isActive?"Active":"inActive"}}</span></td>
+
+                            <td>{{member.joinDate}}</td>
+                            <td>{{member.email}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

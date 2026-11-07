@@ -52,6 +52,11 @@ import { Table12Component } from './shared/components/table/table12/table12.comp
 import { Table13Component } from './shared/components/table/table13/table13.component';
 import { Table14Component } from './shared/components/table/table14/table14.component';
 import { Table15Component } from './shared/components/table/table15/table15.component';
+import { Table16Component } from './shared/components/table/table16/table16.component';
+import { Table17Component } from './shared/components/table/table17/table17.component';
+import { Table18Component } from './shared/components/table/table18/table18.component';
+import { Table19Component } from './shared/components/table/table19/table19.component';
+import { Table20Component } from './shared/components/table/table20/table20.component';
 
 
 
@@ -103,7 +108,12 @@ import { Table15Component } from './shared/components/table/table15/table15.comp
     Table12Component,
     Table13Component,
     Table14Component,
-    Table15Component
+    Table15Component,
+    Table16Component,
+    Table17Component,
+    Table18Component,
+    Table19Component,
+    Table20Component
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+<!-- <p>table20 works!</p> -->
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <thead style="background-color:lightgreen;">
+                        <tr>
+                            <th>GymId</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Plan</th>
+                            <th>Fees</th>
+                            <th>Trainer</th>
+                            <th>IsActive</th>
+                            <th>Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let gym of gyms;let i=index">
+                            <td>{{i+1}}</td>
+                            <td>{{gym.name}}</td>
+                            <td>{{gym.age}}</td>
+                            <td>{{gym.plan}}</td>
+                            <td>{{gym.fees}}</td>
+                            <td>{{gym.trainer}}</td>
+                            <td><span class="badge" style="font-size:12px" [ngClass]="{
+                                'bg-success':gym.isActive,
+                                'bg-danger':!gym.isActive
+                            }">{{gym.isActive?"Active":"InActive"}}</span></td>
+                            <td>{{gym.weight}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
