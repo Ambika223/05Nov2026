@@ -1,0 +1,40 @@
+<!-- <p>table14 works!</p> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center mt-3 bg-info p-3"><b>Bank Table</b></h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead>
+                        <tr>
+                            <th>AccNo</th>
+                            <th>HolderName</th>
+                            <th>bank</th>
+                            <th>AccType</th>
+                            <th>Balance</th>
+                            <th>IsActive</th>
+                            <th>Branch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let account of accountArr">
+                            <td>{{account.accNo}}</td>
+                            <td>{{account.holderName}}</td>
+                            <td>{{account.bank}}</td>
+                            <td><span class="badge" [ngClass]="{
+                                'bg-primary': account.accType === 'Savings',
+        'bg-success': account.accType === 'Current',
+        'bg-warning': account.accType === 'Salary'
+                            }">{{account.accType}}</span></td>
+
+                            <td>{{account.balance}}</td>
+                            <td>{{account.isActive}}</td>
+                            <td>{{account.branch}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

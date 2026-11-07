@@ -3,7 +3,7 @@
 
 // // Create table by using following objects (Employees)
 
-import { IbookArr, IcourseArr, IcustomerArr, IdoctorArr, IempArr, IhotelArr, ImovieArr, IorderArr, IproductArr, IstudentArr, IteacherArr, IvehicleArr } from "../models/table";
+import { IaccountArr, IbookArr, IcourseArr, IcustomerArr, IdoctorArr, IempArr, IflightArr, IhotelArr, ImovieArr, IorderArr, IproductArr, IrestaurantArr, IstudentArr, IteacherArr, IvehicleArr } from "../models/table";
 
 // // 👉  1
 export const empArr: Array<IempArr> = [
@@ -177,40 +177,40 @@ export const doctorArr: Array<IdoctorArr> = [
 ];
 
 // // // 👉 13 - Restaurants
-// export const restaurantArr: Array<IrestaurantArr> = [
-//     { restId: 1, name: 'Barbeque Nation', cuisine: 'Barbecue', city: 'Pune', rating: 4.4, avgCost: 1200, isOpen: true, isVeg: false },
-//     { restId: 2, name: 'Haldiram', cuisine: 'North Indian', city: 'Delhi', rating: 4.2, avgCost: 500, isOpen: true, isVeg: true },
-//     { restId: 3, name: 'Paradise Biryani', cuisine: 'Hyderabadi', city: 'Hyderabad', rating: 4.5, avgCost: 700, isOpen: true, isVeg: false },
-//     { restId: 4, name: 'Saravana Bhavan', cuisine: 'South Indian', city: 'Chennai', rating: 4.3, avgCost: 400, isOpen: false, isVeg: true },
-//     { restId: 5, name: 'Leopold Cafe', cuisine: 'Continental', city: 'Mumbai', rating: 4.1, avgCost: 900, isOpen: true, isVeg: false },
-//     { restId: 6, name: 'Karims', cuisine: 'Mughlai', city: 'Delhi', rating: 4.4, avgCost: 600, isOpen: true, isVeg: false },
-//     { restId: 7, name: 'Gujarati Thali House', cuisine: 'Gujarati', city: 'Ahmedabad', rating: 4.0, avgCost: 450, isOpen: true, isVeg: true },
-//     { restId: 8, name: 'Pizza Hub', cuisine: 'Italian', city: 'Bangalore', rating: 3.9, avgCost: 800, isOpen: false, isVeg: false }
-// ];
+export const restaurantArr: Array<IrestaurantArr> = [
+    { restId: 1, name: 'Barbeque Nation', cuisine: 'Barbecue', city: 'Pune', rating: 4.4, avgCost: 1200, isOpen: true, isVeg: false },
+    { restId: 2, name: 'Haldiram', cuisine: 'North Indian', city: 'Delhi', rating: 4.2, avgCost: 500, isOpen: true, isVeg: true },
+    { restId: 3, name: 'Paradise Biryani', cuisine: 'Hyderabadi', city: 'Hyderabad', rating: 4.5, avgCost: 700, isOpen: true, isVeg: false },
+    { restId: 4, name: 'Saravana Bhavan', cuisine: 'South Indian', city: 'Chennai', rating: 4.3, avgCost: 400, isOpen: false, isVeg: true },
+    { restId: 5, name: 'Leopold Cafe', cuisine: 'Continental', city: 'Mumbai', rating: 4.1, avgCost: 900, isOpen: true, isVeg: false },
+    { restId: 6, name: 'Karims', cuisine: 'Mughlai', city: 'Delhi', rating: 4.4, avgCost: 600, isOpen: true, isVeg: false },
+    { restId: 7, name: 'Gujarati Thali House', cuisine: 'Gujarati', city: 'Ahmedabad', rating: 4.0, avgCost: 450, isOpen: true, isVeg: true },
+    { restId: 8, name: 'Pizza Hub', cuisine: 'Italian', city: 'Bangalore', rating: 3.9, avgCost: 800, isOpen: false, isVeg: false }
+];
 
 // // // 👉 14 - Banks / Accounts
-// export const accountArr: Array<IaccountArr> = [
-//     { accNo: 100101, holderName: 'Rohan Verma', bank: 'SBI', accType: 'Savings', balance: 85000, isActive: true, branch: 'Pune' },
-//     { accNo: 100102, holderName: 'Priya Shah', bank: 'HDFC', accType: 'Current', balance: 450000, isActive: true, branch: 'Mumbai' },
-//     { accNo: 100103, holderName: 'Manoj Tiwari', bank: 'ICICI', accType: 'Savings', balance: 23000, isActive: true, branch: 'Delhi' },
-//     { accNo: 100104, holderName: 'Swati Kulkarni', bank: 'Axis', accType: 'Savings', balance: 120000, isActive: false, branch: 'Nagpur' },
-//     { accNo: 100105, holderName: 'Deepak Yadav', bank: 'PNB', accType: 'Current', balance: 310000, isActive: true, branch: 'Lucknow' },
-//     { accNo: 100106, holderName: 'Anita Bose', bank: 'SBI', accType: 'Savings', balance: 56000, isActive: true, branch: 'Kolkata' },
-//     { accNo: 100107, holderName: 'Farhan Ali', bank: 'HDFC', accType: 'Savings', balance: 9500, isActive: true, branch: 'Hyderabad' },
-//     { accNo: 100108, holderName: 'Lata Menon', bank: 'Kotak', accType: 'Current', balance: 275000, isActive: false, branch: 'Kochi' }
-// ];
+export const accountArr: Array<IaccountArr> = [
+    { accNo: 100101, holderName: 'Rohan Verma', bank: 'SBI', accType: 'Savings', balance: 85000, isActive: true, branch: 'Pune' },
+    { accNo: 100102, holderName: 'Priya Shah', bank: 'HDFC', accType: 'Current', balance: 450000, isActive: true, branch: 'Mumbai' },
+    { accNo: 100103, holderName: 'Manoj Tiwari', bank: 'ICICI', accType: 'Savings', balance: 23000, isActive: true, branch: 'Delhi' },
+    { accNo: 100104, holderName: 'Swati Kulkarni', bank: 'Axis', accType: 'Savings', balance: 120000, isActive: false, branch: 'Nagpur' },
+    { accNo: 100105, holderName: 'Deepak Yadav', bank: 'PNB', accType: 'Current', balance: 310000, isActive: true, branch: 'Lucknow' },
+    { accNo: 100106, holderName: 'Anita Bose', bank: 'SBI', accType: 'Savings', balance: 56000, isActive: true, branch: 'Kolkata' },
+    { accNo: 100107, holderName: 'Farhan Ali', bank: 'HDFC', accType: 'Savings', balance: 9500, isActive: true, branch: 'Hyderabad' },
+    { accNo: 100108, holderName: 'Lata Menon', bank: 'Kotak', accType: 'Current', balance: 275000, isActive: false, branch: 'Kochi' }
+];
 
 // // // 👉 15 - Flights
-// export const flightArr: Array<IflightArr> = [
-//     { flightId: 'AI101', airline: 'Air India', from: 'Delhi', to: 'Mumbai', price: 5500, duration: '2h 10m', isDirect: true, seats: 45 },
-//     { flightId: '6E202', airline: 'IndiGo', from: 'Pune', to: 'Bangalore', price: 3800, duration: '1h 30m', isDirect: true, seats: 60 },
-//     { flightId: 'SG303', airline: 'SpiceJet', from: 'Hyderabad', to: 'Kolkata', price: 4500, duration: '2h 05m', isDirect: true, seats: 30 },
-//     { flightId: 'UK404', airline: 'Vistara', from: 'Mumbai', to: 'Chennai', price: 6200, duration: '1h 55m', isDirect: true, seats: 25 },
-//     { flightId: 'AI505', airline: 'Air India', from: 'Delhi', to: 'Goa', price: 7800, duration: '4h 20m', isDirect: false, seats: 18 },
-//     { flightId: '6E606', airline: 'IndiGo', from: 'Jaipur', to: 'Pune', price: 4100, duration: '2h 00m', isDirect: true, seats: 52 },
-//     { flightId: 'SG707', airline: 'SpiceJet', from: 'Chennai', to: 'Delhi', price: 6900, duration: '2h 50m', isDirect: true, seats: 0 },
-//     { flightId: 'UK808', airline: 'Vistara', from: 'Bangalore', to: 'Mumbai', price: 5100, duration: '1h 45m', isDirect: true, seats: 33 }
-// ];
+export const flightArr: Array<IflightArr> = [
+    { flightId: 'AI101', airline: 'Air India', from: 'Delhi', to: 'Mumbai', price: 5500, duration: '2h 10m', isDirect: true, seats: 45 },
+    { flightId: '6E202', airline: 'IndiGo', from: 'Pune', to: 'Bangalore', price: 3800, duration: '1h 30m', isDirect: true, seats: 60 },
+    { flightId: 'SG303', airline: 'SpiceJet', from: 'Hyderabad', to: 'Kolkata', price: 4500, duration: '2h 05m', isDirect: true, seats: 30 },
+    { flightId: 'UK404', airline: 'Vistara', from: 'Mumbai', to: 'Chennai', price: 6200, duration: '1h 55m', isDirect: true, seats: 25 },
+    { flightId: 'AI505', airline: 'Air India', from: 'Delhi', to: 'Goa', price: 7800, duration: '4h 20m', isDirect: false, seats: 18 },
+    { flightId: '6E606', airline: 'IndiGo', from: 'Jaipur', to: 'Pune', price: 4100, duration: '2h 00m', isDirect: true, seats: 52 },
+    { flightId: 'SG707', airline: 'SpiceJet', from: 'Chennai', to: 'Delhi', price: 6900, duration: '2h 50m', isDirect: true, seats: 0 },
+    { flightId: 'UK808', airline: 'Vistara', from: 'Bangalore', to: 'Mumbai', price: 5100, duration: '1h 45m', isDirect: true, seats: 33 }
+];
 
 // // // 👉 16 - Employees Projects
 // export const projectArr: Array<IprojectArr> = [

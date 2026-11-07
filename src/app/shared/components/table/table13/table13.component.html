@@ -1,0 +1,42 @@
+<!-- <p>table13 works!</p> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center mt-3"><b>Restaurants Table</b></h3>
+            <div class="table-responsive">
+                <table class="table table-bordered text-center">
+                    <thead style="background: #cc3030;">
+                        <tr>
+                            <th>RestId</th>
+                            <th>Name</th>
+                            <th>Cuisine</th>
+                            <th>City</th>
+                            <th>Rating</th>
+                            <th>AvgCost</th>
+                            <th>IsOpen</th>
+                            <th>IsVeg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let rest of restaurantArr">
+                            <td>{{rest.restId}}</td>
+                            <td>{{rest.name}}</td>
+                            <td>{{rest.cuisine}}</td>
+                            <td>{{rest.city}}</td>
+
+                            <td><span class="badge" [ngClass]="{
+                            'bg-primary':rest.rating>5,
+                            'bg-warning':rest.rating>=3 && rest.rating<=5,
+                            'bg-danger':rest.rating<3
+                           }">{{rest.rating}}</span></td>
+                            <td>{{rest.avgCost}}</td>
+                            <td>{{rest.isOpen}}</td>
+                            <td>{{rest.isVeg}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

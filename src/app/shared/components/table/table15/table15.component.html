@@ -1,0 +1,39 @@
+<!-- <p>table15 works!</p> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="bg-secondary">
+                        <tr>
+                            <th>FlightId</th>
+                            <th>Airline</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Price</th>
+                            <th>Duration</th>
+                            <th>IsDirect</th>
+                            <th>Seats</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let flight of flights">
+                            <td>{{flight.flightId}}</td>
+                            <td>{{flight.airline}}</td>
+                            <td>{{flight.from}}</td>
+                            <td>{{flight.to}}</td>
+                            <td>{{flight.price}}</td>
+                            <td>{{flight.duration}}</td>
+                            <td class="text-center"><span class="badge" [ngClass]="{
+                                'bg-success':flight.isDirect,
+                                'bg-danger':!flight.isDirect
+                            }">{{flight.isDirect?'Yes':'No'}}</span></td>
+
+                            <td>{{flight.seats}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
