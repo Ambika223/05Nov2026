@@ -90,16 +90,16 @@ export const rivers: string[] = [
 ];
 
 // // 1️⃣6️⃣ Mobile Brands
-// mobileBrandsText = 'Popular Smartphone Brands Used by Millions';
-// mobileBrands = [
-//     'Apple', 'Samsung', 'OnePlus', 'Xiaomi', 'Realme', 'Oppo', 'Vivo', 'Google Pixel', 'Motorola', 'Nothing'
-// ];
+export const mobileBrandsText: string = 'Popular Smartphone Brands Used by Millions';
+export const mobileBrands: string[] = [
+    'Apple', 'Samsung', 'OnePlus', 'Xiaomi', 'Realme', 'Oppo', 'Vivo', 'Google Pixel', 'Motorola', 'Nothing'
+];
 
 // // 1️⃣7️⃣ Social Media
-// socialMediaText = '10 Social Media Platforms Used Around the World';
-// socialMedia = [
-//     'Facebook', 'Instagram', 'YouTube', 'WhatsApp', 'X', 'LinkedIn', 'Snapchat', 'Telegram', 'Pinterest', 'Reddit'
-// ];
+export const socialMediaText: string = '10 Social Media Platforms Used Around the World';
+export const socialMedia: string[] = [
+    'Facebook', 'Instagram', 'YouTube', 'WhatsApp', 'X', 'LinkedIn', 'Snapchat', 'Telegram', 'Pinterest', 'Reddit'
+];
 
 // // 1️⃣8️⃣ Beverages
 // beveragesText = 'Refreshing Drinks to Enjoy in Every Season';
