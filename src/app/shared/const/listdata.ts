@@ -102,16 +102,16 @@ export const socialMedia: string[] = [
 ];
 
 // // 1️⃣8️⃣ Beverages
-// beveragesText = 'Refreshing Drinks to Enjoy in Every Season';
-// beverages = [
-//     'Tea', 'Coffee', 'Lassi', 'Lemonade', 'Coconut Water', 'Milkshake', 'Buttermilk', 'Green Tea', 'Smoothie', 'Cold Coffee'
-// ];
+export const beveragesText: string = 'Refreshing Drinks to Enjoy in Every Season';
+export const beverages: string[] = [
+    'Tea', 'Coffee', 'Lassi', 'Lemonade', 'Coconut Water', 'Milkshake', 'Buttermilk', 'Green Tea', 'Smoothie', 'Cold Coffee'
+];
 
 // // 1️⃣9️⃣ Indian Dishes
-// dishesText = 'Famous Indian Dishes Loved by Everyone';
-// dishes = [
-//     'Biryani', 'Paneer Butter Masala', 'Dosa', 'Samosa', 'Pav Bhaji', 'Chole Bhature', 'Idli', 'Dhokla', 'Poha', 'Vada Pav'
-// ];
+export const dishesText: string = 'Famous Indian Dishes Loved by Everyone';
+export const dishes: string[] = [
+    'Biryani', 'Paneer Butter Masala', 'Dosa', 'Samosa', 'Pav Bhaji', 'Chole Bhature', 'Idli', 'Dhokla', 'Poha', 'Vada Pav'
+];
 
 // // 2️⃣0️⃣ Months
 // monthsText = 'All Months of the Year in Order';

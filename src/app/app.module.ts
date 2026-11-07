@@ -64,6 +64,8 @@ import { List14Component } from './shared/components/list/list14/list14.componen
 import { List15Component } from './shared/components/list/list15/list15.component';
 import { List16Component } from './shared/components/list/list16/list16.component';
 import { List17Component } from './shared/components/list/list17/list17.component';
+import { List18Component } from './shared/components/list/list18/list18.component';
+import { List19Component } from './shared/components/list/list19/list19.component';
 
 
 
@@ -127,7 +129,9 @@ import { List17Component } from './shared/components/list/list17/list17.componen
     List14Component,
     List15Component,
     List16Component,
-    List17Component
+    List17Component,
+    List18Component,
+    List19Component
   ],
   imports: [
     BrowserModule,
@@ -135,7 +139,7 @@ import { List17Component } from './shared/components/list/list17/list17.componen
     MatButtonModule,
     MatIconModule,
 
-] ,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
