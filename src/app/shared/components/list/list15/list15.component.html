@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5">
+            <h4>
+                <b>{{riversText}}</b>
+            </h4>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let river of rivers;let i=index"
+                    [ngClass]="(i+1)%2===0 ? 'bg-primary':'bg-secondary text-white'">{{river}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

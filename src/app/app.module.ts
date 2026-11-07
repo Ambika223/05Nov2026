@@ -59,6 +59,9 @@ import { Table19Component } from './shared/components/table/table19/table19.comp
 import { Table20Component } from './shared/components/table/table20/table20.component';
 import { List11Component } from './shared/components/list/list11/list11.component';
 import { List12Component } from './shared/components/list/list12/list12.component';
+import { List13Component } from './shared/components/list/list13/list13.component';
+import { List14Component } from './shared/components/list/list14/list14.component';
+import { List15Component } from './shared/components/list/list15/list15.component';
 
 
 
@@ -117,7 +120,10 @@ import { List12Component } from './shared/components/list/list12/list12.componen
     Table19Component,
     Table20Component,
     List11Component,
-    List12Component
+    List12Component,
+    List13Component,
+    List14Component,
+    List15Component
   ],
   imports: [
     BrowserModule,

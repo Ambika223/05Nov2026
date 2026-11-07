@@ -72,22 +72,22 @@ export const birds: string[] = [
 ];
 
 // // 1️⃣3️⃣ Programming Languages
-// programmingText = 'Top 10 Programming Languages Every Developer Should Know';
-// programming = [
-//     'JavaScript', 'Python', 'Java', 'C++', 'C#', 'TypeScript', 'PHP', 'Go', 'Kotlin', 'Swift'
-// ];
+export const programmingText: string = 'Top 10 Programming Languages Every Developer Should Know';
+export const programming: string[] = [
+    'JavaScript', 'Python', 'Java', 'C++', 'C#', 'TypeScript', 'PHP', 'Go', 'Kotlin', 'Swift'
+];
 
 // // 1️⃣4️⃣ Festivals
-// festivalsText = 'Major Festivals Celebrated Across India';
-// festivals = [
-//     'Diwali', 'Holi', 'Eid', 'Christmas', 'Navratri', 'Ganesh Chaturthi', 'Pongal', 'Onam', 'Baisakhi', 'Raksha Bandhan'
-// ];
+export const festivalsText: string = 'Major Festivals Celebrated Across India';
+export const festivals: string[] = [
+    'Diwali', 'Holi', 'Eid', 'Christmas', 'Navratri', 'Ganesh Chaturthi', 'Pongal', 'Onam', 'Baisakhi', 'Raksha Bandhan'
+];
 
 // // 1️⃣5️⃣ Indian Rivers
-// riversText = '10 Important Rivers That Flow Through India';
-// rivers = [
-//     'Ganga', 'Yamuna', 'Godavari', 'Krishna', 'Narmada', 'Brahmaputra', 'Kaveri', 'Mahanadi', 'Tapi', 'Sutlej'
-// ];
+export const riversText: string = '10 Important Rivers That Flow Through India';
+export const rivers: string[] = [
+    'Ganga', 'Yamuna', 'Godavari', 'Krishna', 'Narmada', 'Brahmaputra', 'Kaveri', 'Mahanadi', 'Tapi', 'Sutlej'
+];
 
 // // 1️⃣6️⃣ Mobile Brands
 // mobileBrandsText = 'Popular Smartphone Brands Used by Millions';
