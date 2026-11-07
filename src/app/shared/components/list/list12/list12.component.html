@@ -1,0 +1,14 @@
+<!-- <p>list12 works!</p> -->
+<!-- <p>list11 works!</p> -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-5">
+            <h4 style="font-size: 18px;"><b>{{birdsText}}</b></h4>
+            <ul class="list-group">
+                <li class="list-group-item text-center text-white" *ngFor="let bird of birds;let i=index"
+                    [ngClass]="(i+1)%2===0 ? 'bg-primary':'bg-danger'">
+                    {{bird}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

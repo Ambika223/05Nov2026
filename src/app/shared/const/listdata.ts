@@ -60,16 +60,16 @@ export const languages: string[] = [
 
 
 // // 1️⃣1️⃣ Vegetables
-// vegetablesText = '10 Fresh Vegetables Everyone Should Eat Daily';
-// vegetables = [
-//     'Potato', 'Tomato', 'Onion', 'Carrot', 'Spinach', 'Cauliflower', 'Cabbage', 'Broccoli', 'Cucumber', 'Capsicum'
-// ];
+export const vegetablesText: string = '10 Fresh Vegetables Everyone Should Eat Daily';
+export const vegetables: string[] = [
+    'Potato', 'Tomato', 'Onion', 'Carrot', 'Spinach', 'Cauliflower', 'Cabbage', 'Broccoli', 'Cucumber', 'Capsicum'
+];
 
 // // 1️⃣2️⃣ Birds
-// birdsText = '10 Beautiful Birds Found in India and Around the World';
-// birds = [
-//     'Peacock', 'Parrot', 'Sparrow', 'Eagle', 'Owl', 'Crow', 'Pigeon', 'Flamingo', 'Penguin', 'Kingfisher'
-// ];
+export const birdsText: string = '10 Beautiful Birds Found in India and Around the World';
+export const birds: string[] = [
+    'Peacock', 'Parrot', 'Sparrow', 'Eagle', 'Owl', 'Crow', 'Pigeon', 'Flamingo', 'Penguin', 'Kingfisher'
+];
 
 // // 1️⃣3️⃣ Programming Languages
 // programmingText = 'Top 10 Programming Languages Every Developer Should Know';

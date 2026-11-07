@@ -57,6 +57,8 @@ import { Table17Component } from './shared/components/table/table17/table17.comp
 import { Table18Component } from './shared/components/table/table18/table18.component';
 import { Table19Component } from './shared/components/table/table19/table19.component';
 import { Table20Component } from './shared/components/table/table20/table20.component';
+import { List11Component } from './shared/components/list/list11/list11.component';
+import { List12Component } from './shared/components/list/list12/list12.component';
 
 
 
@@ -113,7 +115,9 @@ import { Table20Component } from './shared/components/table/table20/table20.comp
     Table17Component,
     Table18Component,
     Table19Component,
-    Table20Component
+    Table20Component,
+    List11Component,
+    List12Component
   ],
   imports: [
     BrowserModule,
