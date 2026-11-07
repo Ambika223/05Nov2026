@@ -3,7 +3,7 @@
 
 // // Create table by using following objects (Employees)
 
-import { IbookArr, IcourseArr, IcustomerArr, IempArr, ImovieArr, IorderArr, IproductArr, IstudentArr, IteacherArr, IvehicleArr } from "../models/table";
+import { IbookArr, IcourseArr, IcustomerArr, IdoctorArr, IempArr, IhotelArr, ImovieArr, IorderArr, IproductArr, IstudentArr, IteacherArr, IvehicleArr } from "../models/table";
 
 // // 👉  1
 export const empArr: Array<IempArr> = [
@@ -153,28 +153,28 @@ export let vehicleArr: Array<IvehicleArr> = [
 
 
 // // 👉 11 - Hotels
-// export const hotelArr: Array<IhotelArr> = [
-//     { hotelId: 1, name: 'Taj Residency', city: 'Mumbai', rating: 4.8, pricePerNight: 12000, isAvailable: true, rooms: 120, contact: 9810011001 },
-//     { hotelId: 2, name: 'The Leela Palace', city: 'Delhi', rating: 4.7, pricePerNight: 15000, isAvailable: true, rooms: 200, contact: 9810011002 },
-//     { hotelId: 3, name: 'ITC Grand', city: 'Chennai', rating: 4.5, pricePerNight: 9500, isAvailable: false, rooms: 150, contact: 9810011003 },
-//     { hotelId: 4, name: 'Oberoi Udaivilas', city: 'Udaipur', rating: 4.9, pricePerNight: 30000, isAvailable: true, rooms: 80, contact: 9810011004 },
-//     { hotelId: 5, name: 'Hyatt Regency', city: 'Pune', rating: 4.3, pricePerNight: 7000, isAvailable: true, rooms: 110, contact: 9810011005 },
-//     { hotelId: 6, name: 'Radisson Blu', city: 'Hyderabad', rating: 4.2, pricePerNight: 6500, isAvailable: true, rooms: 95, contact: 9810011006 },
-//     { hotelId: 7, name: 'Lemon Tree', city: 'Bangalore', rating: 4.0, pricePerNight: 4500, isAvailable: false, rooms: 70, contact: 9810011007 },
-//     { hotelId: 8, name: 'Novotel', city: 'Kolkata', rating: 4.4, pricePerNight: 8000, isAvailable: true, rooms: 130, contact: 9810011008 }
-// ];
+export const hotelArr: Array<IhotelArr> = [
+    { hotelId: 1, name: 'Taj Residency', city: 'Mumbai', rating: 4.8, pricePerNight: 12000, isAvailable: true, rooms: 120, contact: 9810011001 },
+    { hotelId: 2, name: 'The Leela Palace', city: 'Delhi', rating: 4.7, pricePerNight: 15000, isAvailable: true, rooms: 200, contact: 9810011002 },
+    { hotelId: 3, name: 'ITC Grand', city: 'Chennai', rating: 4.5, pricePerNight: 9500, isAvailable: false, rooms: 150, contact: 9810011003 },
+    { hotelId: 4, name: 'Oberoi Udaivilas', city: 'Udaipur', rating: 2, pricePerNight: 30000, isAvailable: true, rooms: 80, contact: 9810011004 },
+    { hotelId: 5, name: 'Hyatt Regency', city: 'Pune', rating: 4.3, pricePerNight: 7000, isAvailable: true, rooms: 110, contact: 9810011005 },
+    { hotelId: 6, name: 'Radisson Blu', city: 'Hyderabad', rating: 4.2, pricePerNight: 6500, isAvailable: true, rooms: 95, contact: 9810011006 },
+    { hotelId: 7, name: 'Lemon Tree', city: 'Bangalore', rating: 3.0, pricePerNight: 4500, isAvailable: false, rooms: 70, contact: 9810011007 },
+    { hotelId: 8, name: 'Novotel', city: 'Kolkata', rating: 4.4, pricePerNight: 8000, isAvailable: true, rooms: 130, contact: 9810011008 }
+];
 
 // // // 👉 12 - Doctors
-// export const doctorArr: Array<IdoctorArr> = [
-//     { doctorId: 1, name: 'Dr. Anil Kapoor', specialization: 'Cardiologist', experience: 15, fees: 1500, isAvailable: true, hospital: 'Apollo', email: 'anil.kapoor@hospital.com' },
-//     { doctorId: 2, name: 'Dr. Sunita Rao', specialization: 'Dermatologist', experience: 10, fees: 1000, isAvailable: true, hospital: 'Fortis', email: 'sunita.rao@hospital.com' },
-//     { doctorId: 3, name: 'Dr. Rajesh Iyer', specialization: 'Neurologist', experience: 18, fees: 2000, isAvailable: false, hospital: 'AIIMS', email: 'rajesh.iyer@hospital.com' },
-//     { doctorId: 4, name: 'Dr. Meera Nair', specialization: 'Pediatrician', experience: 8, fees: 800, isAvailable: true, hospital: 'Manipal', email: 'meera.nair@hospital.com' },
-//     { doctorId: 5, name: 'Dr. Vikram Singh', specialization: 'Orthopedic', experience: 12, fees: 1200, isAvailable: true, hospital: 'Max', email: 'vikram.singh@hospital.com' },
-//     { doctorId: 6, name: 'Dr. Pooja Desai', specialization: 'Gynecologist', experience: 14, fees: 1300, isAvailable: true, hospital: 'Apollo', email: 'pooja.desai@hospital.com' },
-//     { doctorId: 7, name: 'Dr. Suresh Menon', specialization: 'ENT', experience: 9, fees: 900, isAvailable: false, hospital: 'Fortis', email: 'suresh.menon@hospital.com' },
-//     { doctorId: 8, name: 'Dr. Neha Joshi', specialization: 'Dentist', experience: 6, fees: 600, isAvailable: true, hospital: 'Clove', email: 'neha.joshi@hospital.com' }
-// ];
+export const doctorArr: Array<IdoctorArr> = [
+    { doctorId: 1, name: 'Dr. Anil Kapoor', specialization: 'Cardiologist', experience: 15, fees: 1500, isAvailable: true, hospital: 'Apollo', email: 'anil.kapoor@hospital.com' },
+    { doctorId: 2, name: 'Dr. Sunita Rao', specialization: 'Dermatologist', experience: 10, fees: 1000, isAvailable: true, hospital: 'Fortis', email: 'sunita.rao@hospital.com' },
+    { doctorId: 3, name: 'Dr. Rajesh Iyer', specialization: 'Neurologist', experience: 18, fees: 2000, isAvailable: false, hospital: 'AIIMS', email: 'rajesh.iyer@hospital.com' },
+    { doctorId: 4, name: 'Dr. Meera Nair', specialization: 'Pediatrician', experience: 8, fees: 800, isAvailable: true, hospital: 'Manipal', email: 'meera.nair@hospital.com' },
+    { doctorId: 5, name: 'Dr. Vikram Singh', specialization: 'Orthopedic', experience: 12, fees: 1200, isAvailable: true, hospital: 'Max', email: 'vikram.singh@hospital.com' },
+    { doctorId: 6, name: 'Dr. Pooja Desai', specialization: 'Gynecologist', experience: 14, fees: 1300, isAvailable: true, hospital: 'Apollo', email: 'pooja.desai@hospital.com' },
+    { doctorId: 7, name: 'Dr. Suresh Menon', specialization: 'ENT', experience: 9, fees: 900, isAvailable: false, hospital: 'Fortis', email: 'suresh.menon@hospital.com' },
+    { doctorId: 8, name: 'Dr. Neha Joshi', specialization: 'Dentist', experience: 6, fees: 600, isAvailable: true, hospital: 'Clove', email: 'neha.joshi@hospital.com' }
+];
 
 // // // 👉 13 - Restaurants
 // export const restaurantArr: Array<IrestaurantArr> = [

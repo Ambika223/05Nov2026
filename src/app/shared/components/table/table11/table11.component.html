@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>HotelId</th>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>Rating</th>
+                        <th>PricePerNight</th>
+                        <th>IsAvailable</th>
+                        <th>Rooms</th>
+                        <th>contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let hotel of hotelArr">
+                        <td>{{hotel.hotelId}}</td>
+                        <td>{{hotel.name}}</td>
+                        <td>{{hotel.city}}</td>
+                        <td><span class="badge" style="font-size:16px" [class.text-success]="hotel.rating >= 4"
+                                [class.text-warning]="hotel.rating >= 3 && hotel.rating < 4"
+                                [class.text-danger]="hotel.rating < 3">{{hotel.rating}}</span></td>
+
+
+                        <td>{{hotel.pricePerNight}}</td>
+                        <td><span class="badge" [ngClass]="{
+                            'bg-success':hotel.isAvailable,
+                            'bg-danger':!hotel.isAvailable
+                        }">{{hotel.isAvailable ? "Available":"NotAvailable"}}</span></td>
+
+                        <td>{{hotel.rooms}}</td>
+                        <td>{{hotel.contact}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
