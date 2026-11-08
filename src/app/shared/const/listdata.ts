@@ -114,40 +114,40 @@ export const dishes: string[] = [
 ];
 
 // // 2️⃣0️⃣ Months
-// monthsText = 'All Months of the Year in Order';
-// months = [
-//     'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October'
-// ];
+export const monthsText: string = 'All Months of the Year in Order';
+export const months: string[] = [
+    'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October'
+];
 
 // // 2️⃣1️⃣ Planets
-// planetsText = 'Planets and Celestial Bodies in Our Solar System';
-// planets = [
-//     'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Moon'
-// ];
+export const planetsText: string = 'Planets and Celestial Bodies in Our Solar System';
+export const planets: string[] = [
+    'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Moon'
+];
 
 // // 2️⃣2️⃣ Flowers
-// flowersText = '10 Fragrant and Colorful Flowers in Nature';
-// flowers = [
-//     'Rose', 'Lotus', 'Jasmine', 'Sunflower', 'Marigold', 'Tulip', 'Lily', 'Hibiscus', 'Orchid', 'Daisy'
-// ];
+export const flowersText: string = '10 Fragrant and Colorful Flowers in Nature';
+export const flowers: string[] = [
+    'Rose', 'Lotus', 'Jasmine', 'Sunflower', 'Marigold', 'Tulip', 'Lily', 'Hibiscus', 'Orchid', 'Daisy'
+];
 
 // // 2️⃣3️⃣ Professions
-// professionsText = 'Popular Professions Students Dream of Choosing';
-// professions = [
-//     'Doctor', 'Engineer', 'Teacher', 'Pilot', 'Lawyer', 'Architect', 'Chef', 'Scientist', 'Journalist', 'Designer'
-// ];
+export const professionsText: string = 'Popular Professions Students Dream of Choosing';
+export const professions: string[] = [
+    'Doctor', 'Engineer', 'Teacher', 'Pilot', 'Lawyer', 'Architect', 'Chef', 'Scientist', 'Journalist', 'Designer'
+];
 
 // // 2️⃣4️⃣ Gadgets
-// gadgetsText = 'Must-Have Gadgets for a Smart Lifestyle';
-// gadgets = [
-//     'Smart Watch', 'Earbuds', 'Power Bank', 'Smart Speaker', 'Fitness Band', 'Drone', 'Bluetooth Speaker', 'E-Reader', 'VR Headset', 'Webcam'
-// ];
+export const gadgetsText: string = 'Must-Have Gadgets for a Smart Lifestyle';
+export const gadgets: string[] = [
+    'Smart Watch', 'Earbuds', 'Power Bank', 'Smart Speaker', 'Fitness Band', 'Drone', 'Bluetooth Speaker', 'E-Reader', 'VR Headset', 'Webcam'
+];
 
 // // 2️⃣5️⃣ Weekdays and Time
-// weekdaysText = 'Days of the Week Along With Related Terms';
-// weekdays = [
-//     'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Weekend', 'Holiday', 'Today'
-// ];
+export const weekdaysText: string = 'Days of the Week Along With Related Terms';
+export const weekdays: string[] = [
+    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Weekend', 'Holiday', 'Today'
+];
 
 // // 2️⃣6️⃣ Indian States
 // statesText = 'Major Indian States Known for Culture and Heritage';

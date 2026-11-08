@@ -66,6 +66,12 @@ import { List16Component } from './shared/components/list/list16/list16.componen
 import { List17Component } from './shared/components/list/list17/list17.component';
 import { List18Component } from './shared/components/list/list18/list18.component';
 import { List19Component } from './shared/components/list/list19/list19.component';
+import { List20Component } from './shared/components/list/list20/list20.component';
+import { List21Component } from './shared/components/list/list21/list21.component';
+import { List22Component } from './shared/components/list/list22/list22.component';
+import { List23Component } from './shared/components/list/list23/list23.component';
+import { List24Component } from './shared/components/list/list24/list24.component';
+import { List25Component } from './shared/components/list/list25/list25.component';
 
 
 
@@ -131,7 +137,13 @@ import { List19Component } from './shared/components/list/list19/list19.componen
     List16Component,
     List17Component,
     List18Component,
-    List19Component
+    List19Component,
+    List20Component,
+    List21Component,
+    List22Component,
+    List23Component,
+    List24Component,
+    List25Component
   ],
   imports: [
     BrowserModule,
