@@ -1,0 +1,11 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5">
+            <h3><b>{{emotionsText}}</b></h3>
+            <ul class="list-group">
+                <li class="list-group-item text-white text-center" *ngFor="let emotions of emotions1;let i=index"
+                    [ngClass]="(i+1)%2===0?'bg-primary':'bg-dark'">{{emotions}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

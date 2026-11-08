@@ -72,6 +72,16 @@ import { List22Component } from './shared/components/list/list22/list22.componen
 import { List23Component } from './shared/components/list/list23/list23.component';
 import { List24Component } from './shared/components/list/list24/list24.component';
 import { List25Component } from './shared/components/list/list25/list25.component';
+import { List26Component } from './shared/components/list/list26/list26.component';
+import { List27Component } from './shared/components/list/list27/list27.component';
+import { List28Component } from './shared/components/list/list28/list28.component';
+import { List29Component } from './shared/components/list/list29/list29.component';
+import { List30Component } from './shared/components/list/list30/list30.component';
+import { List31Component } from './shared/components/list/list31/list31.component';
+import { List32Component } from './shared/components/list/list32/list32.component';
+import { List33Component } from './shared/components/list/list33/list33.component';
+import { List34Component } from './shared/components/list/list34/list34.component';
+import { List35Component } from './shared/components/list/list35/list35.component';
 
 
 
@@ -143,7 +153,17 @@ import { List25Component } from './shared/components/list/list25/list25.componen
     List22Component,
     List23Component,
     List24Component,
-    List25Component
+    List25Component,
+    List26Component,
+    List27Component,
+    List28Component,
+    List29Component,
+    List30Component,
+    List31Component,
+    List32Component,
+    List33Component,
+    List34Component,
+    List35Component
   ],
   imports: [
     BrowserModule,

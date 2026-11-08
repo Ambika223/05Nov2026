@@ -150,61 +150,61 @@ export const weekdays: string[] = [
 ];
 
 // // 2️⃣6️⃣ Indian States
-// statesText = 'Major Indian States Known for Culture and Heritage';
-// states = [
-//     'Maharashtra', 'Gujarat', 'Rajasthan', 'Kerala', 'Punjab', 'Tamil Nadu', 'Karnataka', 'West Bengal', 'Goa', 'Assam'
-// ];
+export const statesText: string = 'Major Indian States Known for Culture and Heritage';
+export const states: string[] = [
+    'Maharashtra', 'Gujarat', 'Rajasthan', 'Kerala', 'Punjab', 'Tamil Nadu', 'Karnataka', 'West Bengal', 'Goa', 'Assam'
+];
 
 // // 2️⃣7️⃣ Musical Instruments
-// instrumentsText = 'Popular Musical Instruments Played Worldwide';
-// instruments = [
-//     'Guitar', 'Piano', 'Tabla', 'Flute', 'Violin', 'Drums', 'Sitar', 'Harmonium', 'Saxophone', 'Trumpet'
-// ];
+export const instrumentsText: string = 'Popular Musical Instruments Played Worldwide';
+export const instruments: string[] = [
+    'Guitar', 'Piano', 'Tabla', 'Flute', 'Violin', 'Drums', 'Sitar', 'Harmonium', 'Saxophone', 'Trumpet'
+];
 
 // // 2️⃣8️⃣ Web Technologies
-// webTechText = 'Essential Web Technologies Used by Modern Developers';
-// webTech = [
-//     'HTML', 'CSS', 'JavaScript', 'Angular', 'React', 'Vue', 'Node.js', 'Express', 'MongoDB', 'Bootstrap'
-// ];
+export const webTechText: string = 'Essential Web Technologies Used by Modern Developers';
+export const webTech: string[] = [
+    'HTML', 'CSS', 'JavaScript', 'Angular', 'React', 'Vue', 'Node.js', 'Express', 'MongoDB', 'Bootstrap'
+];
 
 // // 2️⃣9️⃣ Clothing
-// clothingText = 'Everyday Clothing Items for Every Occasion';
-// clothing = [
-//     'T-Shirt', 'Jeans', 'Kurta', 'Saree', 'Jacket', 'Shirt', 'Hoodie', 'Shorts', 'Blazer', 'Sweater'
-// ];
+export const clothingText: string = 'Everyday Clothing Items for Every Occasion';
+export const clothing: string[] = [
+    'T-Shirt', 'Jeans', 'Kurta', 'Saree', 'Jacket', 'Shirt', 'Hoodie', 'Shorts', 'Blazer', 'Sweater'
+];
 
 // // 3️⃣0️⃣ Household Items
-// householdText = 'Common Household Items Found in Every Home';
-// household = [
-//     'Table', 'Chair', 'Sofa', 'Bed', 'Fan', 'Mirror', 'Lamp', 'Curtain', 'Cupboard', 'Clock'
-// ];
+export const householdText: string = 'Common Household Items Found in Every Home';
+export const household: string[] = [
+    'Table', 'Chair', 'Sofa', 'Bed', 'Fan', 'Mirror', 'Lamp', 'Curtain', 'Cupboard', 'Clock'
+];
 
 // // 3️⃣1️⃣ Seasons and Weather
-// weatherText = 'Different Types of Weather and Seasons Explained';
-// weather = [
-//     'Summer', 'Winter', 'Monsoon', 'Spring', 'Autumn', 'Sunny', 'Rainy', 'Cloudy', 'Foggy', 'Stormy'
-// ];
+export const weatherText: string = 'Different Types of Weather and Seasons Explained';
+export const weather: string[] = [
+    'Summer', 'Winter', 'Monsoon', 'Spring', 'Autumn', 'Sunny', 'Rainy', 'Cloudy', 'Foggy', 'Stormy'
+];
 
 // // 3️⃣2️⃣ Famous Monuments
-// monumentsText = 'Famous Monuments of India Visited by Tourists';
-// monuments = [
-//     'Taj Mahal', 'Red Fort', 'India Gate', 'Qutub Minar', 'Gateway of India', 'Charminar', 'Hawa Mahal', 'Victoria Memorial', 'Golden Temple', 'Mysore Palace'
-// ];
+export const monumentsText: string = 'Famous Monuments of India Visited by Tourists';
+export const monuments: string[] = [
+    'Taj Mahal', 'Red Fort', 'India Gate', 'Qutub Minar', 'Gateway of India', 'Charminar', 'Hawa Mahal', 'Victoria Memorial', 'Golden Temple', 'Mysore Palace'
+];
 
 // // 3️⃣3️⃣ Stationery
-// stationeryText = 'Essential Stationery Items for School and Office';
-// stationery = [
-//     'Notebook', 'Pencil', 'Eraser', 'Ruler', 'Marker', 'Stapler', 'Highlighter', 'Sharpener', 'Scissors', 'Glue Stick'
-// ];
+export const stationeryText: string = 'Essential Stationery Items for School and Office';
+export const stationery: string[] = [
+    'Notebook', 'Pencil', 'Eraser', 'Ruler', 'Marker', 'Stapler', 'Highlighter', 'Sharpener', 'Scissors', 'Glue Stick'
+];
 
 // // 3️⃣4️⃣ Cloud and Dev Tools
-// devToolsText = 'Popular Tools Every Software Developer Uses Daily';
-// devTools = [
-//     'VS Code', 'Git', 'GitHub', 'Postman', 'Docker', 'Figma', 'Jira', 'Chrome DevTools', 'npm', 'Firebase'
-// ];
+export const devToolsText: string = 'Popular Tools Every Software Developer Uses Daily';
+export const devTools: string[] = [
+    'VS Code', 'Git', 'GitHub', 'Postman', 'Docker', 'Figma', 'Jira', 'Chrome DevTools', 'npm', 'Firebase'
+];
 
 // // 3️⃣5️⃣ Emotions
-// emotionsText = 'Human Emotions We Experience in Daily Life';
-// emotions = [
-//     'Happy', 'Sad', 'Angry', 'Excited', 'Calm', 'Nervous', 'Proud', 'Surprised', 'Confident', 'Grateful'
-// ];
+export const emotionsText: string = 'Human Emotions We Experience in Daily Life';
+export const emotions: string[] = [
+    'Happy', 'Sad', 'Angry', 'Excited', 'Calm', 'Nervous', 'Proud', 'Surprised', 'Confident', 'Grateful'
+];
