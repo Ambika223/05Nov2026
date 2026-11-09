@@ -2,7 +2,7 @@
 // //  Create Cards by using following objects
 //  // 1
 
-import { IAI, IbiologyArr, IbusinessArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdevOpsArr, IeducationArr, IfinanceArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, ImathArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, IwebDevArr } from "../models/card";
+import { IAI, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, ImathArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, IwebDevArr } from "../models/card";
 
 export const aiArr: Array<IAI> = [
     { topic: "AI Fundamentals", details: "Understand the core ideas behind Artificial Intelligence." },
@@ -291,74 +291,74 @@ export const sportsArr: Array<IsportsArr> = [
 ];
 
 // // 21
-// export const environmentArr = [
-//   { concept: "Climate Change", explain: "Understand global warming, greenhouse gases, and how human activities are changing weather patterns. Learn about rising sea levels, extreme events, and what individuals can do to help." },
-//   { concept: "Renewable Energy", explain: "Explore solar, wind, hydro, and biomass power as clean alternatives to fossil fuels. Learn how these sources reduce pollution and create sustainable long-term energy supply." },
-//   { concept: "Recycling", explain: "Reduce waste by sorting and reusing paper, plastic, glass, and metal. Follow the reduce, reuse, recycle principle to save resources and protect landfills." },
-//   { concept: "Biodiversity", explain: "Protect the variety of plants, animals, and microorganisms that keep ecosystems balanced. Learn why habitat loss and extinction threaten food, medicine, and climate stability." },
-//   { concept: "Water Conservation", explain: "Use and manage freshwater responsibly through rainwater harvesting, drip irrigation, and leak control. Small daily habits can save thousands of litres every year." },
-//   { concept: "Air Pollution", explain: "Study sources like vehicles, industries, and burning of waste, and their effects on health. Learn about AQI, clean transport, and policies that improve air quality." },
-//   { concept: "Afforestation", explain: "Restore forests by planting trees to absorb carbon dioxide, prevent soil erosion, and support wildlife. Community plantation drives play a key role in cooling cities." },
-//   { concept: "Sustainable Living", explain: "Adopt habits like saving energy, using public transport, buying local, and avoiding single-use plastic. Sustainable choices reduce your carbon footprint and save money too." },
-//   { concept: "Ozone Layer", explain: "Learn how this protective layer shields Earth from harmful ultraviolet radiation and how CFCs damaged it. The Montreal Protocol shows how global cooperation can heal the environment." },
-//   { concept: "Waste Management", explain: "Handle solid, liquid, biomedical, and electronic waste through segregation, composting, and safe disposal. Efficient systems keep cities clean and reduce environmental harm." }
-// ];
+export const environmentArr: Array<IenvironmentArray> = [
+    { concept: "Climate Change", explain: "Understand global warming, greenhouse gases, and how human activities are changing weather patterns. Learn about rising sea levels, extreme events, and what individuals can do to help." },
+    { concept: "Renewable Energy", explain: "Explore solar, wind, hydro, and biomass power as clean alternatives to fossil fuels. Learn how these sources reduce pollution and create sustainable long-term energy supply." },
+    { concept: "Recycling", explain: "Reduce waste by sorting and reusing paper, plastic, glass, and metal. Follow the reduce, reuse, recycle principle to save resources and protect landfills." },
+    { concept: "Biodiversity", explain: "Protect the variety of plants, animals, and microorganisms that keep ecosystems balanced. Learn why habitat loss and extinction threaten food, medicine, and climate stability." },
+    { concept: "Water Conservation", explain: "Use and manage freshwater responsibly through rainwater harvesting, drip irrigation, and leak control. Small daily habits can save thousands of litres every year." },
+    { concept: "Air Pollution", explain: "Study sources like vehicles, industries, and burning of waste, and their effects on health. Learn about AQI, clean transport, and policies that improve air quality." },
+    { concept: "Afforestation", explain: "Restore forests by planting trees to absorb carbon dioxide, prevent soil erosion, and support wildlife. Community plantation drives play a key role in cooling cities." },
+    { concept: "Sustainable Living", explain: "Adopt habits like saving energy, using public transport, buying local, and avoiding single-use plastic. Sustainable choices reduce your carbon footprint and save money too." },
+    { concept: "Ozone Layer", explain: "Learn how this protective layer shields Earth from harmful ultraviolet radiation and how CFCs damaged it. The Montreal Protocol shows how global cooperation can heal the environment." },
+    { concept: "Waste Management", explain: "Handle solid, liquid, biomedical, and electronic waste through segregation, composting, and safe disposal. Efficient systems keep cities clean and reduce environmental harm." }
+];
 
 // // 22
-// export const designArr = [
-//   { module: "Color Theory", summary: "Use the color wheel, contrast, and harmony to evoke emotion and guide attention. Learn how palettes, saturation, and brand colors affect user perception." },
-//   { module: "Typography", summary: "Choose fonts, sizes, spacing, and weights for readability and personality. Understand hierarchy and pairing so text looks professional and communicates clearly." },
-//   { module: "Layout & Grid", summary: "Organize content with balance, alignment, whitespace, and visual hierarchy. Use grid systems to create consistent, clean, and scannable designs across screens." },
-//   { module: "UX Research", summary: "Understand user needs through interviews, surveys, personas, and usability testing. Research-backed decisions lead to products people actually enjoy using." },
-//   { module: "Wireframing", summary: "Sketch the structure and flow of screens before adding visual details. Low-fidelity wireframes help teams discuss ideas and fix problems early and cheaply." },
-//   { module: "Prototyping", summary: "Create clickable, interactive mockups in tools like Figma to validate ideas. Test real user journeys and gather feedback before developers write any code." },
-//   { module: "Design Systems", summary: "Maintain consistent components, tokens, and guidelines across products and teams. A good design system speeds up work and keeps the experience unified." },
-//   { module: "Accessibility", summary: "Design products usable by everyone, including people with visual, motor, or hearing impairments. Follow WCAG guidelines for contrast, keyboard navigation, and screen readers." },
-//   { module: "Branding", summary: "Build a visual identity with logo, colors, tone, and messaging that people remember. Strong branding builds trust and sets you apart from competitors." },
-//   { module: "Motion Design", summary: "Add meaningful animation and micro-interactions that guide users and give feedback. Learn timing, easing, and when subtle motion improves usability." }
-// ];
+export const designArr: Array<IdesignArray> = [
+    { module: "Color Theory", summary: "Use the color wheel, contrast, and harmony to evoke emotion and guide attention. Learn how palettes, saturation, and brand colors affect user perception." },
+    { module: "Typography", summary: "Choose fonts, sizes, spacing, and weights for readability and personality. Understand hierarchy and pairing so text looks professional and communicates clearly." },
+    { module: "Layout & Grid", summary: "Organize content with balance, alignment, whitespace, and visual hierarchy. Use grid systems to create consistent, clean, and scannable designs across screens." },
+    { module: "UX Research", summary: "Understand user needs through interviews, surveys, personas, and usability testing. Research-backed decisions lead to products people actually enjoy using." },
+    { module: "Wireframing", summary: "Sketch the structure and flow of screens before adding visual details. Low-fidelity wireframes help teams discuss ideas and fix problems early and cheaply." },
+    { module: "Prototyping", summary: "Create clickable, interactive mockups in tools like Figma to validate ideas. Test real user journeys and gather feedback before developers write any code." },
+    { module: "Design Systems", summary: "Maintain consistent components, tokens, and guidelines across products and teams. A good design system speeds up work and keeps the experience unified." },
+    { module: "Accessibility", summary: "Design products usable by everyone, including people with visual, motor, or hearing impairments. Follow WCAG guidelines for contrast, keyboard navigation, and screen readers." },
+    { module: "Branding", summary: "Build a visual identity with logo, colors, tone, and messaging that people remember. Strong branding builds trust and sets you apart from competitors." },
+    { module: "Motion Design", summary: "Add meaningful animation and micro-interactions that guide users and give feedback. Learn timing, easing, and when subtle motion improves usability." }
+];
 
 // // 23
-// export const physicsArr = [
-//   { topicName: "Mechanics", description: "Study motion, force, momentum, work, and energy using Newton's laws. These fundamentals explain everything from falling objects to the movement of vehicles and planets." },
-//   { topicName: "Thermodynamics", description: "Understand heat, temperature, work, and entropy along with the laws governing energy transfer. Learn how engines, refrigerators, and power plants operate." },
-//   { topicName: "Optics", description: "Learn about reflection, refraction, lenses, mirrors, and the nature of light. Understand how cameras, microscopes, telescopes, and eyeglasses work." },
-//   { topicName: "Electricity", description: "Explore electric charge, current, voltage, resistance, and circuits. Apply Ohm's law to understand how household wiring and electronic devices function." },
-//   { topicName: "Magnetism", description: "Understand magnetic fields, forces, and electromagnetic induction. Discover how motors, generators, transformers, and MRI machines rely on magnetic effects." },
-//   { topicName: "Waves", description: "Study sound, light, and water waves with concepts like frequency, wavelength, amplitude, and interference. Learn how waves carry energy and information." },
-//   { topicName: "Quantum Physics", description: "Discover the strange behavior of particles at atomic scales, including wave-particle duality and uncertainty. Quantum theory powers modern electronics and emerging computing." },
-//   { topicName: "Relativity", description: "Learn how Einstein's theories connect space, time, and gravity. Understand time dilation, mass-energy equivalence, and why GPS needs relativistic corrections." },
-//   { topicName: "Nuclear Physics", description: "Study atomic nuclei, radioactivity, fission, and fusion. Explore applications in power generation, medicine, and the powerful energy of the stars." },
-//   { topicName: "Gravitation", description: "Understand the force that governs falling objects, planetary orbits, and tides. Learn Newton's law of gravitation and how it shapes the structure of the cosmos." }
-// ];
+export const physicsArr: Array<IphysicsArr> = [
+    { topicName: "Mechanics", description: "Study motion, force, momentum, work, and energy using Newton's laws. These fundamentals explain everything from falling objects to the movement of vehicles and planets." },
+    { topicName: "Thermodynamics", description: "Understand heat, temperature, work, and entropy along with the laws governing energy transfer. Learn how engines, refrigerators, and power plants operate." },
+    { topicName: "Optics", description: "Learn about reflection, refraction, lenses, mirrors, and the nature of light. Understand how cameras, microscopes, telescopes, and eyeglasses work." },
+    { topicName: "Electricity", description: "Explore electric charge, current, voltage, resistance, and circuits. Apply Ohm's law to understand how household wiring and electronic devices function." },
+    { topicName: "Magnetism", description: "Understand magnetic fields, forces, and electromagnetic induction. Discover how motors, generators, transformers, and MRI machines rely on magnetic effects." },
+    { topicName: "Waves", description: "Study sound, light, and water waves with concepts like frequency, wavelength, amplitude, and interference. Learn how waves carry energy and information." },
+    { topicName: "Quantum Physics", description: "Discover the strange behavior of particles at atomic scales, including wave-particle duality and uncertainty. Quantum theory powers modern electronics and emerging computing." },
+    { topicName: "Relativity", description: "Learn how Einstein's theories connect space, time, and gravity. Understand time dilation, mass-energy equivalence, and why GPS needs relativistic corrections." },
+    { topicName: "Nuclear Physics", description: "Study atomic nuclei, radioactivity, fission, and fusion. Explore applications in power generation, medicine, and the powerful energy of the stars." },
+    { topicName: "Gravitation", description: "Understand the force that governs falling objects, planetary orbits, and tides. Learn Newton's law of gravitation and how it shapes the structure of the cosmos." }
+];
 
 // // 24
-// export const chemistryArr = [
-//   { subject: "Periodic Table", info: "Learn how elements are arranged by atomic number and recurring properties. Predict reactivity, valency, and trends across groups and periods with ease." },
-//   { subject: "Chemical Bonding", info: "Understand ionic, covalent, and metallic bonds and how atoms share or transfer electrons. Bonding explains the shape, strength, and properties of molecules." },
-//   { subject: "Acids & Bases", info: "Study pH, indicators, strong and weak acids, and neutralization reactions. See how these concepts apply to digestion, cleaning products, and industrial processes." },
-//   { subject: "Organic Chemistry", info: "Explore carbon compounds, functional groups, and reaction mechanisms. Organic chemistry is the basis of medicines, plastics, fuels, and living organisms." },
-//   { subject: "Stoichiometry", info: "Calculate quantities of reactants and products using mole concepts and balanced equations. Essential for predicting yields in labs and industries." },
-//   { subject: "Electrochemistry", info: "Learn how chemical energy converts into electrical energy in batteries and cells. Understand redox reactions, electrolysis, and corrosion prevention." },
-//   { subject: "Thermochemistry", info: "Study heat changes during reactions, including enthalpy, exothermic, and endothermic processes. Learn how energy flows in fuels, food, and chemical manufacturing." },
-//   { subject: "Polymers", info: "Understand large molecules made of repeating units, such as plastics, rubber, and synthetic fibers. Explore their properties, uses, and environmental challenges." },
-//   { subject: "Chemical Kinetics", info: "Measure how fast reactions occur and what factors affect their rates, like temperature, concentration, and catalysts. Useful for controlling industrial processes." },
-//   { subject: "Environmental Chemistry", info: "See how chemicals affect air, water, and soil, including acid rain, smog, and pollutants. Learn green chemistry approaches that reduce harm to the planet." }
-// ];
+export const chemistryArr: Array<IchemistryArr> = [
+    { subject: "Periodic Table", info: "Learn how elements are arranged by atomic number and recurring properties. Predict reactivity, valency, and trends across groups and periods with ease." },
+    { subject: "Chemical Bonding", info: "Understand ionic, covalent, and metallic bonds and how atoms share or transfer electrons. Bonding explains the shape, strength, and properties of molecules." },
+    { subject: "Acids & Bases", info: "Study pH, indicators, strong and weak acids, and neutralization reactions. See how these concepts apply to digestion, cleaning products, and industrial processes." },
+    { subject: "Organic Chemistry", info: "Explore carbon compounds, functional groups, and reaction mechanisms. Organic chemistry is the basis of medicines, plastics, fuels, and living organisms." },
+    { subject: "Stoichiometry", info: "Calculate quantities of reactants and products using mole concepts and balanced equations. Essential for predicting yields in labs and industries." },
+    { subject: "Electrochemistry", info: "Learn how chemical energy converts into electrical energy in batteries and cells. Understand redox reactions, electrolysis, and corrosion prevention." },
+    { subject: "Thermochemistry", info: "Study heat changes during reactions, including enthalpy, exothermic, and endothermic processes. Learn how energy flows in fuels, food, and chemical manufacturing." },
+    { subject: "Polymers", info: "Understand large molecules made of repeating units, such as plastics, rubber, and synthetic fibers. Explore their properties, uses, and environmental challenges." },
+    { subject: "Chemical Kinetics", info: "Measure how fast reactions occur and what factors affect their rates, like temperature, concentration, and catalysts. Useful for controlling industrial processes." },
+    { subject: "Environmental Chemistry", info: "See how chemicals affect air, water, and soil, including acid rain, smog, and pollutants. Learn green chemistry approaches that reduce harm to the planet." }
+];
 
 // // 25
-// export const careerArr = [
-//   { field: "Resume Writing", concept: "Present your skills, projects, and achievements clearly in a concise, well-structured document. Use action words and measurable results so recruiters notice you within seconds." },
-//   { field: "Interview Skills", concept: "Prepare for technical and HR rounds by practicing common questions and the STAR method. Communicate with confidence, ask smart questions, and follow up professionally." },
-//   { field: "Networking", concept: "Build genuine professional relationships through events, communities, and online platforms. A strong network brings referrals, mentorship, and hidden opportunities." },
-//   { field: "LinkedIn Profile", concept: "Showcase your experience, skills, and recommendations with a strong headline and summary. Stay active with posts and connections to attract recruiters." },
-//   { field: "Time Management", concept: "Prioritize tasks using tools like the Eisenhower matrix and time blocking. Avoid distractions, set realistic deadlines, and maintain a healthy work-life balance." },
-//   { field: "Public Speaking", concept: "Deliver ideas clearly and confidently in meetings, presentations, and conferences. Practice structure, body language, and voice control to engage any audience." },
-//   { field: "Salary Negotiation", concept: "Research market rates and highlight your value before discussing compensation. Learn to negotiate benefits, role, and growth along with the base salary." },
-//   { field: "Freelancing", concept: "Find clients, set fair pricing, and manage projects independently. Build a portfolio, communicate expectations, and deliver on time to earn repeat work." },
-//   { field: "Personal Branding", concept: "Create a recognizable professional identity through your work, writing, and online presence. A consistent brand makes you memorable and trusted in your field." },
-//   { field: "Upskilling", concept: "Keep learning new tools, technologies, and soft skills to stay relevant. Set small learning goals, build projects, and earn certifications that match industry demand." }
-// ];
+export const careerArr: Array<IcareerArr> = [
+    { field: "Resume Writing", concept: "Present your skills, projects, and achievements clearly in a concise, well-structured document. Use action words and measurable results so recruiters notice you within seconds." },
+    { field: "Interview Skills", concept: "Prepare for technical and HR rounds by practicing common questions and the STAR method. Communicate with confidence, ask smart questions, and follow up professionally." },
+    { field: "Networking", concept: "Build genuine professional relationships through events, communities, and online platforms. A strong network brings referrals, mentorship, and hidden opportunities." },
+    { field: "LinkedIn Profile", concept: "Showcase your experience, skills, and recommendations with a strong headline and summary. Stay active with posts and connections to attract recruiters." },
+    { field: "Time Management", concept: "Prioritize tasks using tools like the Eisenhower matrix and time blocking. Avoid distractions, set realistic deadlines, and maintain a healthy work-life balance." },
+    { field: "Public Speaking", concept: "Deliver ideas clearly and confidently in meetings, presentations, and conferences. Practice structure, body language, and voice control to engage any audience." },
+    { field: "Salary Negotiation", concept: "Research market rates and highlight your value before discussing compensation. Learn to negotiate benefits, role, and growth along with the base salary." },
+    { field: "Freelancing", concept: "Find clients, set fair pricing, and manage projects independently. Build a portfolio, communicate expectations, and deliver on time to earn repeat work." },
+    { field: "Personal Branding", concept: "Create a recognizable professional identity through your work, writing, and online presence. A consistent brand makes you memorable and trusted in your field." },
+    { field: "Upskilling", concept: "Keep learning new tools, technologies, and soft skills to stay relevant. Set small learning goals, build projects, and earn certifications that match industry demand." }
+];
 
 // // 26
 // export const mobileDevArr = [

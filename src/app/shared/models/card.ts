@@ -95,3 +95,29 @@ export interface IsportsArr {
     topic: string;
     info: string;
 }
+
+export interface IenvironmentArray {
+    concept: string;
+    explain: string;
+}
+
+export interface IdesignArray {
+    module: string;
+    summary: string;
+}
+
+
+export interface IphysicsArr {
+    topicName: string;
+    description: string;
+}
+
+export interface IchemistryArr {
+    subject: string;
+    info: string;
+}
+
+export interface IcareerArr {
+    field: string;
+    concept: string;
+} []
