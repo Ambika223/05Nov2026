@@ -87,6 +87,11 @@ import { Card22Component } from './shared/components/card/card22/card22.componen
 import { Card23Component } from './shared/components/card/card23/card23.component';
 import { Card24Component } from './shared/components/card/card24/card24.component';
 import { Card25Component } from './shared/components/card/card25/card25.component';
+import { Card26Component } from './shared/components/card/card26/card26.component';
+import { Card27Component } from './shared/components/card/card27/card27.component';
+import { Card28Component } from './shared/components/card/card28/card28.component';
+import { Card29Component } from './shared/components/card/card29/card29.component';
+import { Card30Component } from './shared/components/card/card30/card30.component';
 
 
 
@@ -173,7 +178,12 @@ import { Card25Component } from './shared/components/card/card25/card25.componen
     Card22Component,
     Card23Component,
     Card24Component,
-    Card25Component
+    Card25Component,
+    Card26Component,
+    Card27Component,
+    Card28Component,
+    Card29Component,
+    Card30Component
   ],
   imports: [
     BrowserModule,

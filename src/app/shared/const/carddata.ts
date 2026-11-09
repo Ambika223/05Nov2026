@@ -2,7 +2,7 @@
 // //  Create Cards by using following objects
 //  // 1
 
-import { IAI, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, ImathArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, IwebDevArr } from "../models/card";
+import { IAI, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdataScienceArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, IfoodArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, ImathArr, ImobileDevArr, ImusicArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, ItravelArr, IwebDevArr } from "../models/card";
 
 export const aiArr: Array<IAI> = [
     { topic: "AI Fundamentals", details: "Understand the core ideas behind Artificial Intelligence." },
@@ -361,74 +361,74 @@ export const careerArr: Array<IcareerArr> = [
 ];
 
 // // 26
-// export const mobileDevArr = [
-//   { section: "Android Basics", detail: "Build apps using Kotlin or Java with activities, fragments, and XML layouts. Learn the app lifecycle, intents, and Material Design for a polished experience." },
-//   { section: "iOS Basics", detail: "Develop apps with Swift, Xcode, and SwiftUI for iPhones and iPads. Understand view controllers, storyboards, and Apple's human interface guidelines." },
-//   { section: "Flutter", detail: "Create beautiful cross-platform apps from a single Dart codebase. Use widgets, hot reload, and state management to build fast mobile, web, and desktop apps." },
-//   { section: "React Native", detail: "Build native mobile apps with JavaScript and React concepts. Share code between Android and iOS while still accessing device features through native modules." },
-//   { section: "Ionic", detail: "Develop hybrid apps using Angular, HTML, CSS, and Capacitor. A great choice for web developers who want to ship mobile apps quickly." },
-//   { section: "Push Notifications", detail: "Engage users with timely alerts using Firebase Cloud Messaging or APNs. Learn permissions, segmentation, and best practices to avoid annoying users." },
-//   { section: "App Storage", detail: "Persist data using SQLite, Room, shared preferences, and secure storage. Handle offline mode and syncing so apps remain useful without internet." },
-//   { section: "Mobile UI Patterns", detail: "Design navigation like tabs, drawers, and bottom sheets that feel natural on small screens. Consider thumb reach, gestures, and consistent spacing." },
-//   { section: "App Publishing", detail: "Prepare builds, icons, screenshots, and descriptions to release on Play Store and App Store. Understand review guidelines, versioning, and update strategies." },
-//   { section: "Mobile Security", detail: "Protect user data with encryption, secure APIs, and certificate pinning. Avoid storing secrets in code and follow platform security best practices." }
-// ];
+export const mobileDevArr: Array<ImobileDevArr> = [
+    { section: "Android Basics", detail: "Build apps using Kotlin or Java with activities, fragments, and XML layouts. Learn the app lifecycle, intents, and Material Design for a polished experience." },
+    { section: "iOS Basics", detail: "Develop apps with Swift, Xcode, and SwiftUI for iPhones and iPads. Understand view controllers, storyboards, and Apple's human interface guidelines." },
+    { section: "Flutter", detail: "Create beautiful cross-platform apps from a single Dart codebase. Use widgets, hot reload, and state management to build fast mobile, web, and desktop apps." },
+    { section: "React Native", detail: "Build native mobile apps with JavaScript and React concepts. Share code between Android and iOS while still accessing device features through native modules." },
+    { section: "Ionic", detail: "Develop hybrid apps using Angular, HTML, CSS, and Capacitor. A great choice for web developers who want to ship mobile apps quickly." },
+    { section: "Push Notifications", detail: "Engage users with timely alerts using Firebase Cloud Messaging or APNs. Learn permissions, segmentation, and best practices to avoid annoying users." },
+    { section: "App Storage", detail: "Persist data using SQLite, Room, shared preferences, and secure storage. Handle offline mode and syncing so apps remain useful without internet." },
+    { section: "Mobile UI Patterns", detail: "Design navigation like tabs, drawers, and bottom sheets that feel natural on small screens. Consider thumb reach, gestures, and consistent spacing." },
+    { section: "App Publishing", detail: "Prepare builds, icons, screenshots, and descriptions to release on Play Store and App Store. Understand review guidelines, versioning, and update strategies." },
+    { section: "Mobile Security", detail: "Protect user data with encryption, secure APIs, and certificate pinning. Avoid storing secrets in code and follow platform security best practices." }
+];
 
 // // 27
-// export const dataScienceArr = [
-//   { tool: "Python", usage: "The most popular language for data analysis, automation, and machine learning. Its simple syntax and huge library ecosystem make it ideal for beginners and experts alike." },
-//   { tool: "Pandas", usage: "Clean, transform, and analyze tabular data using DataFrames. Handle missing values, merge datasets, and group data to prepare it for analysis." },
-//   { tool: "NumPy", usage: "Perform fast numerical computations with multi-dimensional arrays. It forms the foundation for most scientific and machine learning libraries in Python." },
-//   { tool: "Matplotlib", usage: "Create line charts, bar graphs, histograms, and scatter plots to visualize patterns. Customize labels, colors, and layouts to tell clear data stories." },
-//   { tool: "Scikit-learn", usage: "Build classic machine learning models for classification, regression, and clustering. Includes tools for preprocessing, model selection, and evaluation." },
-//   { tool: "Jupyter Notebook", usage: "Combine live code, output, charts, and notes in a single interactive document. Perfect for experiments, tutorials, and sharing analysis with others." },
-//   { tool: "Power BI", usage: "Build interactive business dashboards and reports from multiple data sources. Use DAX and visuals to help decision makers understand trends quickly." },
-//   { tool: "Tableau", usage: "Visualize data with drag-and-drop analytics and beautiful dashboards. Explore patterns and share insights without writing complex code." },
-//   { tool: "Apache Spark", usage: "Process big data with distributed computing across clusters. Handle batch and streaming workloads much faster than traditional approaches." },
-//   { tool: "SQL for Analytics", usage: "Extract, filter, and summarize data from databases using joins, window functions, and aggregations. A must-have skill for every data professional." }
-// ];
+export const dataScienceArr: Array<IdataScienceArr> = [
+    { tool: "Python", usage: "The most popular language for data analysis, automation, and machine learning. Its simple syntax and huge library ecosystem make it ideal for beginners and experts alike." },
+    { tool: "Pandas", usage: "Clean, transform, and analyze tabular data using DataFrames. Handle missing values, merge datasets, and group data to prepare it for analysis." },
+    { tool: "NumPy", usage: "Perform fast numerical computations with multi-dimensional arrays. It forms the foundation for most scientific and machine learning libraries in Python." },
+    { tool: "Matplotlib", usage: "Create line charts, bar graphs, histograms, and scatter plots to visualize patterns. Customize labels, colors, and layouts to tell clear data stories." },
+    { tool: "Scikit-learn", usage: "Build classic machine learning models for classification, regression, and clustering. Includes tools for preprocessing, model selection, and evaluation." },
+    { tool: "Jupyter Notebook", usage: "Combine live code, output, charts, and notes in a single interactive document. Perfect for experiments, tutorials, and sharing analysis with others." },
+    { tool: "Power BI", usage: "Build interactive business dashboards and reports from multiple data sources. Use DAX and visuals to help decision makers understand trends quickly." },
+    { tool: "Tableau", usage: "Visualize data with drag-and-drop analytics and beautiful dashboards. Explore patterns and share insights without writing complex code." },
+    { tool: "Apache Spark", usage: "Process big data with distributed computing across clusters. Handle batch and streaming workloads much faster than traditional approaches." },
+    { tool: "SQL for Analytics", usage: "Extract, filter, and summarize data from databases using joins, window functions, and aggregations. A must-have skill for every data professional." }
+];
 
 // // 28
-// export const foodArr = [
-//   { topic: "Indian Cuisine", details: "Explore regional flavors from Punjabi curries to South Indian dosas, along with the spices and techniques behind them. Learn how balance of taste makes Indian food unique." },
-//   { topic: "Baking", details: "Learn the science of breads, cakes, cookies, and pastries, including measuring, mixing, and oven control. Understand how yeast, eggs, and butter affect texture and rise." },
-//   { topic: "Street Food", details: "Discover popular snacks like pav bhaji, chaat, vada pav, and momos found across Indian cities. Learn how simple ingredients turn into crowd-favorite flavors." },
-//   { topic: "Healthy Eating", details: "Cook balanced meals using whole grains, vegetables, lean proteins, and minimal processed ingredients. Small swaps in oil, sugar, and portions can improve your health." },
-//   { topic: "Vegetarian Cooking", details: "Create protein-rich, satisfying dishes using lentils, paneer, tofu, and beans. Learn how to combine ingredients for taste, nutrition, and variety." },
-//   { topic: "Desserts", details: "Prepare traditional sweets like gulab jamun and kheer along with modern desserts like brownies and cheesecake. Learn sugar stages, setting agents, and presentation." },
-//   { topic: "Beverages", details: "Make refreshing teas, coffees, smoothies, lassis, and mocktails at home. Understand brewing methods and flavor pairings for every season." },
-//   { topic: "Meal Prep", details: "Plan, cook, and store meals in advance to save time and money during busy weekdays. Learn batch cooking and storage tips to keep food fresh." },
-//   { topic: "Spices", details: "Understand how turmeric, cumin, cardamom, and other spices add flavor, aroma, and health benefits. Learn when to roast, temper, or grind them for best results." },
-//   { topic: "Food Safety", details: "Store, handle, and cook food hygienically to prevent contamination and illness. Learn about safe temperatures, cross-contamination, and proper cleaning habits." }
-// ];
+export const foodArr: Array<IfoodArr> = [
+    { topic: "Indian Cuisine", details: "Explore regional flavors from Punjabi curries to South Indian dosas, along with the spices and techniques behind them. Learn how balance of taste makes Indian food unique." },
+    { topic: "Baking", details: "Learn the science of breads, cakes, cookies, and pastries, including measuring, mixing, and oven control. Understand how yeast, eggs, and butter affect texture and rise." },
+    { topic: "Street Food", details: "Discover popular snacks like pav bhaji, chaat, vada pav, and momos found across Indian cities. Learn how simple ingredients turn into crowd-favorite flavors." },
+    { topic: "Healthy Eating", details: "Cook balanced meals using whole grains, vegetables, lean proteins, and minimal processed ingredients. Small swaps in oil, sugar, and portions can improve your health." },
+    { topic: "Vegetarian Cooking", details: "Create protein-rich, satisfying dishes using lentils, paneer, tofu, and beans. Learn how to combine ingredients for taste, nutrition, and variety." },
+    { topic: "Desserts", details: "Prepare traditional sweets like gulab jamun and kheer along with modern desserts like brownies and cheesecake. Learn sugar stages, setting agents, and presentation." },
+    { topic: "Beverages", details: "Make refreshing teas, coffees, smoothies, lassis, and mocktails at home. Understand brewing methods and flavor pairings for every season." },
+    { topic: "Meal Prep", details: "Plan, cook, and store meals in advance to save time and money during busy weekdays. Learn batch cooking and storage tips to keep food fresh." },
+    { topic: "Spices", details: "Understand how turmeric, cumin, cardamom, and other spices add flavor, aroma, and health benefits. Learn when to roast, temper, or grind them for best results." },
+    { topic: "Food Safety", details: "Store, handle, and cook food hygienically to prevent contamination and illness. Learn about safe temperatures, cross-contamination, and proper cleaning habits." }
+];
 
 // // 29
-// export const travelArr = [
-//   { concept: "Trip Planning", explain: "Organize routes, stays, transport, and activities in advance with a realistic budget. Good planning saves money, avoids stress, and helps you enjoy every moment." },
-//   { concept: "Budget Travel", explain: "Explore more by spending smartly through off-season bookings, local transport, and homestays. Learn how to find deals without compromising on experiences." },
-//   { concept: "Solo Travel", explain: "Gain confidence, independence, and new perspectives by exploring on your own. Learn safety tips, accommodation choices, and ways to meet fellow travelers." },
-//   { concept: "Adventure Tourism", explain: "Try trekking, rafting, paragliding, and camping in scenic locations. Understand safety gear, fitness needs, and responsible practices for outdoor activities." },
-//   { concept: "Heritage Tours", explain: "Visit forts, temples, palaces, and museums that tell the story of a region's past. Hiring local guides adds depth and meaning to every site." },
-//   { concept: "Beach Destinations", explain: "Relax on beautiful coastlines with sun, sand, and water sports. Compare popular beaches in Goa, Kerala, and the Andamans for the best season and activities." },
-//   { concept: "Hill Stations", explain: "Escape to cool mountain retreats like Manali, Shimla, and Ooty with scenic views and fresh air. Learn the best months to visit and what to pack." },
-//   { concept: "Travel Documents", explain: "Prepare passports, visas, ID proofs, tickets, and insurance well before departure. Keep digital and physical copies to avoid problems on the road." },
-//   { concept: "Local Culture", explain: "Respect and experience regional traditions, festivals, food, and etiquette. Learning a few local phrases helps you connect with people and enrich your trip." },
-//   { concept: "Travel Photography", explain: "Capture memorable moments using good lighting, composition, and storytelling. Learn simple tips for landscapes, portraits, and street photography with any camera." }
-// ];
+export const travelArr: Array<ItravelArr> = [
+    { concept: "Trip Planning", explain: "Organize routes, stays, transport, and activities in advance with a realistic budget. Good planning saves money, avoids stress, and helps you enjoy every moment." },
+    { concept: "Budget Travel", explain: "Explore more by spending smartly through off-season bookings, local transport, and homestays. Learn how to find deals without compromising on experiences." },
+    { concept: "Solo Travel", explain: "Gain confidence, independence, and new perspectives by exploring on your own. Learn safety tips, accommodation choices, and ways to meet fellow travelers." },
+    { concept: "Adventure Tourism", explain: "Try trekking, rafting, paragliding, and camping in scenic locations. Understand safety gear, fitness needs, and responsible practices for outdoor activities." },
+    { concept: "Heritage Tours", explain: "Visit forts, temples, palaces, and museums that tell the story of a region's past. Hiring local guides adds depth and meaning to every site." },
+    { concept: "Beach Destinations", explain: "Relax on beautiful coastlines with sun, sand, and water sports. Compare popular beaches in Goa, Kerala, and the Andamans for the best season and activities." },
+    { concept: "Hill Stations", explain: "Escape to cool mountain retreats like Manali, Shimla, and Ooty with scenic views and fresh air. Learn the best months to visit and what to pack." },
+    { concept: "Travel Documents", explain: "Prepare passports, visas, ID proofs, tickets, and insurance well before departure. Keep digital and physical copies to avoid problems on the road." },
+    { concept: "Local Culture", explain: "Respect and experience regional traditions, festivals, food, and etiquette. Learning a few local phrases helps you connect with people and enrich your trip." },
+    { concept: "Travel Photography", explain: "Capture memorable moments using good lighting, composition, and storytelling. Learn simple tips for landscapes, portraits, and street photography with any camera." }
+];
 
 // // 30
-// export const musicArr = [
-//   { module: "Music Theory", summary: "Understand notes, scales, chords, rhythm, and key signatures that form the language of music. Theory helps you play, compose, and communicate with other musicians." },
-//   { module: "Classical Music", summary: "Explore Hindustani and Carnatic traditions with ragas, talas, and improvisation. Appreciate the depth, discipline, and emotion behind India's classical heritage." },
-//   { module: "Guitar", summary: "Learn open chords, strumming patterns, fingerpicking, and basic songs. Build finger strength and rhythm with daily practice and simple exercises." },
-//   { module: "Piano", summary: "Practice keys, scales, hand coordination, and reading sheet music. Start with simple melodies and progress to chords and full pieces." },
-//   { module: "Vocals", summary: "Train breathing, pitch, tone, and expression through warm-ups and vocal exercises. Learn how to protect your voice and perform comfortably." },
-//   { module: "Tabla", summary: "Learn basic bols, taals, and rhythmic patterns of this popular Indian percussion instrument. Develop finger techniques and timing with guided practice." },
-//   { module: "Music Production", summary: "Record, edit, and mix tracks using digital audio workstations like FL Studio or Ableton. Understand layering, effects, and mastering for a professional sound." },
-//   { module: "Songwriting", summary: "Compose melodies and meaningful lyrics using song structures like verse, chorus, and bridge. Find inspiration and refine your ideas into complete songs." },
-//   { module: "Ear Training", summary: "Recognize intervals, chords, and melodies by listening alone. A trained ear helps you play by ear, improvise, and learn songs much faster." },
-//   { module: "Live Performance", summary: "Build stage presence, confidence, and audience connection through rehearsal and practice. Learn sound checks, setlist planning, and handling nerves." }
-// ];
+export const musicArr: Array<ImusicArr> = [
+    { module: "Music Theory", summary: "Understand notes, scales, chords, rhythm, and key signatures that form the language of music. Theory helps you play, compose, and communicate with other musicians." },
+    { module: "Classical Music", summary: "Explore Hindustani and Carnatic traditions with ragas, talas, and improvisation. Appreciate the depth, discipline, and emotion behind India's classical heritage." },
+    { module: "Guitar", summary: "Learn open chords, strumming patterns, fingerpicking, and basic songs. Build finger strength and rhythm with daily practice and simple exercises." },
+    { module: "Piano", summary: "Practice keys, scales, hand coordination, and reading sheet music. Start with simple melodies and progress to chords and full pieces." },
+    { module: "Vocals", summary: "Train breathing, pitch, tone, and expression through warm-ups and vocal exercises. Learn how to protect your voice and perform comfortably." },
+    { module: "Tabla", summary: "Learn basic bols, taals, and rhythmic patterns of this popular Indian percussion instrument. Develop finger techniques and timing with guided practice." },
+    { module: "Music Production", summary: "Record, edit, and mix tracks using digital audio workstations like FL Studio or Ableton. Understand layering, effects, and mastering for a professional sound." },
+    { module: "Songwriting", summary: "Compose melodies and meaningful lyrics using song structures like verse, chorus, and bridge. Find inspiration and refine your ideas into complete songs." },
+    { module: "Ear Training", summary: "Recognize intervals, chords, and melodies by listening alone. A trained ear helps you play by ear, improvise, and learn songs much faster." },
+    { module: "Live Performance", summary: "Build stage presence, confidence, and audience connection through rehearsal and practice. Learn sound checks, setlist planning, and handling nerves." }
+];
 
 // // 31
 // export const lawArr = [

@@ -120,4 +120,29 @@ export interface IchemistryArr {
 export interface IcareerArr {
     field: string;
     concept: string;
-} []
+}
+
+export interface ImobileDevArr {
+    section: string;
+    detail: string;
+}
+
+export interface IdataScienceArr {
+    tool: string;
+    usage: string;
+}
+
+export interface IfoodArr {
+    topic: string;
+    details: string;
+}
+
+export interface ItravelArr {
+    concept: string;
+    explain: string;
+}
+
+export interface ImusicArr {
+    module: string;
+    summary: string;
+}
