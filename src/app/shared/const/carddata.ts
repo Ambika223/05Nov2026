@@ -2,7 +2,7 @@
 // //  Create Cards by using following objects
 //  // 1
 
-import { IAI, IarchitectureArr, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdataScienceArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, IfoodArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, IlawArr, ImathArr, ImobileDevArr, ImusicArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, ItravelArr, IwebDevArr } from "../models/card";
+import { IagricultureArr, IAI, IarchitectureArr, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdataScienceArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, IfoodArr, IgamingArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, IlawArr, ImathArr, ImobileDevArr, ImusicArr, IphysicsArr, IpsychologyArr, IroboticsArr, IsoftSkillsArr, IspaceArr, IsportsArr, ItechToolsArr, ItravelArr, IwebDevArr } from "../models/card";
 
 export const aiArr: Array<IAI> = [
     { topic: "AI Fundamentals", details: "Understand the core ideas behind Artificial Intelligence." },
@@ -459,43 +459,43 @@ export const architectureArr: Array<IarchitectureArr> = [
 ];
 
 // // 33
-// export const agricultureArr = [
-//   { field: "Crop Science", concept: "Understand how crops grow, flower, and yield based on seeds, climate, and care. Learn about major crops like wheat, rice, cotton, and sugarcane." },
-//   { field: "Soil Health", concept: "Maintain fertility with proper nutrients, organic matter, and pH balance. Soil testing and composting improve yield while protecting the land." },
-//   { field: "Irrigation", concept: "Deliver water efficiently using drip, sprinkler, and canal systems. Smart irrigation saves water and boosts productivity, especially in dry regions." },
-//   { field: "Organic Farming", concept: "Grow food without synthetic chemicals using compost, bio-fertilizers, and natural pest control. Learn certification and market opportunities for organic produce." },
-//   { field: "Pest Control", concept: "Protect crops using integrated pest management with biological, cultural, and safe chemical methods. Identify pests early to reduce losses and costs." },
-//   { field: "Horticulture", concept: "Cultivate fruits, vegetables, flowers, and ornamental plants with proper pruning and care. Explore high-value crops that can increase farm income." },
-//   { field: "Dairy Farming", concept: "Manage cattle breeds, feeding, health, and milk production for steady income. Learn hygiene, cooperative societies, and value-added dairy products." },
-//   { field: "AgriTech", concept: "Use drones, sensors, satellite data, and mobile apps for smart farming decisions. Technology helps monitor crops, save inputs, and increase yield." },
-//   { field: "Crop Rotation", concept: "Improve soil health by alternating crop types each season. This reduces pests and diseases while naturally restoring nutrients." },
-//   { field: "Agri Marketing", concept: "Sell produce at better prices through mandis, FPOs, and online platforms. Understand grading, storage, transport, and MSP to reduce middlemen losses." }
-// ];
+export const agricultureArr: Array<IagricultureArr> = [
+    { field: "Crop Science", concept: "Understand how crops grow, flower, and yield based on seeds, climate, and care. Learn about major crops like wheat, rice, cotton, and sugarcane." },
+    { field: "Soil Health", concept: "Maintain fertility with proper nutrients, organic matter, and pH balance. Soil testing and composting improve yield while protecting the land." },
+    { field: "Irrigation", concept: "Deliver water efficiently using drip, sprinkler, and canal systems. Smart irrigation saves water and boosts productivity, especially in dry regions." },
+    { field: "Organic Farming", concept: "Grow food without synthetic chemicals using compost, bio-fertilizers, and natural pest control. Learn certification and market opportunities for organic produce." },
+    { field: "Pest Control", concept: "Protect crops using integrated pest management with biological, cultural, and safe chemical methods. Identify pests early to reduce losses and costs." },
+    { field: "Horticulture", concept: "Cultivate fruits, vegetables, flowers, and ornamental plants with proper pruning and care. Explore high-value crops that can increase farm income." },
+    { field: "Dairy Farming", concept: "Manage cattle breeds, feeding, health, and milk production for steady income. Learn hygiene, cooperative societies, and value-added dairy products." },
+    { field: "AgriTech", concept: "Use drones, sensors, satellite data, and mobile apps for smart farming decisions. Technology helps monitor crops, save inputs, and increase yield." },
+    { field: "Crop Rotation", concept: "Improve soil health by alternating crop types each season. This reduces pests and diseases while naturally restoring nutrients." },
+    { field: "Agri Marketing", concept: "Sell produce at better prices through mandis, FPOs, and online platforms. Understand grading, storage, transport, and MSP to reduce middlemen losses." }
+];
 
 // // 34
-// export const gamingArr = [
-//   { section: "Game Design", detail: "Plan mechanics, levels, story, and player experience before writing code. Learn how rewards, challenges, and feedback keep players engaged." },
-//   { section: "Unity", detail: "Build 2D and 3D games using C# in one of the most popular game engines. Learn scenes, prefabs, physics, and asset management to publish on multiple platforms." },
-//   { section: "Unreal Engine", detail: "Create high-quality visuals with Blueprints and C++ for PC and console games. Explore lighting, materials, and cinematic tools for realistic worlds." },
-//   { section: "Game Physics", detail: "Simulate collisions, gravity, friction, and movement to make gameplay feel natural. Learn rigidbodies, colliders, and how to tune physics for fun." },
-//   { section: "Game AI", detail: "Program enemies and NPC behavior using state machines, pathfinding, and decision trees. Good AI creates challenge without feeling unfair." },
-//   { section: "Sound Design", detail: "Add music, ambient sounds, and effects that enhance immersion and emotion. Learn mixing and adaptive audio that reacts to gameplay." },
-//   { section: "Level Design", detail: "Craft engaging environments with pacing, challenges, and hidden rewards. Guide players naturally using layout, lighting, and visual cues." },
-//   { section: "Multiplayer", detail: "Build real-time online gameplay using networking, servers, and synchronization. Handle latency, matchmaking, and cheating prevention." },
-//   { section: "Game Monetization", detail: "Earn through ads, in-app purchases, premium pricing, and subscriptions. Balance revenue with fair player experience for long-term success." },
-//   { section: "Esports", detail: "Explore competitive gaming, tournaments, teams, and streaming culture. Learn how professional players train and how the industry is growing." }
-// ];
+export const gamingArr: Array<IgamingArr> = [
+    { section: "Game Design", detail: "Plan mechanics, levels, story, and player experience before writing code. Learn how rewards, challenges, and feedback keep players engaged." },
+    { section: "Unity", detail: "Build 2D and 3D games using C# in one of the most popular game engines. Learn scenes, prefabs, physics, and asset management to publish on multiple platforms." },
+    { section: "Unreal Engine", detail: "Create high-quality visuals with Blueprints and C++ for PC and console games. Explore lighting, materials, and cinematic tools for realistic worlds." },
+    { section: "Game Physics", detail: "Simulate collisions, gravity, friction, and movement to make gameplay feel natural. Learn rigidbodies, colliders, and how to tune physics for fun." },
+    { section: "Game AI", detail: "Program enemies and NPC behavior using state machines, pathfinding, and decision trees. Good AI creates challenge without feeling unfair." },
+    { section: "Sound Design", detail: "Add music, ambient sounds, and effects that enhance immersion and emotion. Learn mixing and adaptive audio that reacts to gameplay." },
+    { section: "Level Design", detail: "Craft engaging environments with pacing, challenges, and hidden rewards. Guide players naturally using layout, lighting, and visual cues." },
+    { section: "Multiplayer", detail: "Build real-time online gameplay using networking, servers, and synchronization. Handle latency, matchmaking, and cheating prevention." },
+    { section: "Game Monetization", detail: "Earn through ads, in-app purchases, premium pricing, and subscriptions. Balance revenue with fair player experience for long-term success." },
+    { section: "Esports", detail: "Explore competitive gaming, tournaments, teams, and streaming culture. Learn how professional players train and how the industry is growing." }
+];
 
 // // 35
-// export const softSkillsArr = [
-//   { tool: "Communication", usage: "Express ideas clearly in speech, writing, and body language. Good communication prevents misunderstandings and builds strong personal and professional relationships." },
-//   { tool: "Teamwork", usage: "Collaborate effectively by sharing responsibilities, respecting opinions, and supporting each other. Great teams achieve more than individuals working alone." },
-//   { tool: "Critical Thinking", usage: "Analyze information objectively, question assumptions, and evaluate evidence before deciding. This skill helps you avoid mistakes and find better solutions." },
-//   { tool: "Problem Solving", usage: "Break down complex challenges into smaller parts and find practical, creative solutions. Learn structured approaches like root-cause analysis and brainstorming." },
-//   { tool: "Adaptability", usage: "Adjust quickly to change, new tools, and unexpected situations with a positive mindset. Adaptable people thrive in fast-moving workplaces." },
-//   { tool: "Emotional Intelligence", usage: "Understand and manage your emotions while recognizing those of others. Empathy and self-awareness improve leadership, teamwork, and conflict handling." },
-//   { tool: "Creativity", usage: "Generate fresh ideas and approaches by exploring, experimenting, and thinking differently. Creativity drives innovation in every field, not just art." },
-//   { tool: "Conflict Resolution", usage: "Handle disagreements calmly by listening, finding common ground, and focusing on solutions. Resolving conflicts early keeps relationships and projects healthy." },
-//   { tool: "Active Listening", usage: "Focus fully on the speaker, ask clarifying questions, and respond thoughtfully. Listening builds trust and helps you understand what people really need." },
-//   { tool: "Decision Making", usage: "Weigh options, consider risks and outcomes, and commit with confidence. Learn frameworks that help you make timely and well-informed choices." }
-// ];
+export const softSkillsArr: Array<IsoftSkillsArr> = [
+    { tool: "Communication", usage: "Express ideas clearly in speech, writing, and body language. Good communication prevents misunderstandings and builds strong personal and professional relationships." },
+    { tool: "Teamwork", usage: "Collaborate effectively by sharing responsibilities, respecting opinions, and supporting each other. Great teams achieve more than individuals working alone." },
+    { tool: "Critical Thinking", usage: "Analyze information objectively, question assumptions, and evaluate evidence before deciding. This skill helps you avoid mistakes and find better solutions." },
+    { tool: "Problem Solving", usage: "Break down complex challenges into smaller parts and find practical, creative solutions. Learn structured approaches like root-cause analysis and brainstorming." },
+    { tool: "Adaptability", usage: "Adjust quickly to change, new tools, and unexpected situations with a positive mindset. Adaptable people thrive in fast-moving workplaces." },
+    { tool: "Emotional Intelligence", usage: "Understand and manage your emotions while recognizing those of others. Empathy and self-awareness improve leadership, teamwork, and conflict handling." },
+    { tool: "Creativity", usage: "Generate fresh ideas and approaches by exploring, experimenting, and thinking differently. Creativity drives innovation in every field, not just art." },
+    { tool: "Conflict Resolution", usage: "Handle disagreements calmly by listening, finding common ground, and focusing on solutions. Resolving conflicts early keeps relationships and projects healthy." },
+    { tool: "Active Listening", usage: "Focus fully on the speaker, ask clarifying questions, and respond thoughtfully. Listening builds trust and helps you understand what people really need." },
+    { tool: "Decision Making", usage: "Weigh options, consider risks and outcomes, and commit with confidence. Learn frameworks that help you make timely and well-informed choices." }
+];

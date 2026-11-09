@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 mt-5" *ngFor="let softSkill of softSkills">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h4><b>{{softSkill.tool}}</b></h4>
+                </div>
+                <div class="card-body">
+                    <p>{{softSkill.usage}}</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                    <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -94,6 +94,9 @@ import { Card29Component } from './shared/components/card/card29/card29.componen
 import { Card30Component } from './shared/components/card/card30/card30.component';
 import { Card31Component } from './shared/components/card/card31/card31.component';
 import { Card32Component } from './shared/components/card/card32/card32.component';
+import { Card33Component } from './shared/components/card/card33/card33.component';
+import { Card34Component } from './shared/components/card/card34/card34.component';
+import { Card35Component } from './shared/components/card/card35/card35.component';
 
 
 
@@ -187,7 +190,10 @@ import { Card32Component } from './shared/components/card/card32/card32.componen
     Card29Component,
     Card30Component,
     Card31Component,
-    Card32Component
+    Card32Component,
+    Card33Component,
+    Card34Component,
+    Card35Component
   ],
   imports: [
     BrowserModule,

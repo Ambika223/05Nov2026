@@ -156,3 +156,18 @@ export interface IarchitectureArr {
     subject: string;
     info: string;
 }
+
+export interface IagricultureArr {
+    field: string;
+    concept: string;
+}
+
+export interface IgamingArr {
+    section: string;
+    detail: string;
+}
+
+export interface IsoftSkillsArr {
+    tool: string;
+    usage: string;
+}
