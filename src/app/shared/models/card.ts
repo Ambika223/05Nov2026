@@ -146,3 +146,13 @@ export interface ImusicArr {
     module: string;
     summary: string;
 }
+
+export interface IlawArr {
+    topicName: string;
+    description: string;
+}
+
+export interface IarchitectureArr {
+    subject: string;
+    info: string;
+}

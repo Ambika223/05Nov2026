@@ -2,7 +2,7 @@
 // //  Create Cards by using following objects
 //  // 1
 
-import { IAI, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdataScienceArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, IfoodArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, ImathArr, ImobileDevArr, ImusicArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, ItravelArr, IwebDevArr } from "../models/card";
+import { IAI, IarchitectureArr, IbiologyArr, IbusinessArr, IcareerArr, IchemistryArr, IcloudArr, IcyberSecurityArr, IdatabaseArr, IdataScienceArr, IdesignArray, IdevOpsArr, IeducationArr, IenvironmentArray, IfinanceArr, IfoodArr, Igeography, IhealthArr, IhistoryArr, IlanguageArr, IlawArr, ImathArr, ImobileDevArr, ImusicArr, IphysicsArr, IpsychologyArr, IroboticsArr, IspaceArr, IsportsArr, ItechToolsArr, ItravelArr, IwebDevArr } from "../models/card";
 
 export const aiArr: Array<IAI> = [
     { topic: "AI Fundamentals", details: "Understand the core ideas behind Artificial Intelligence." },
@@ -431,32 +431,32 @@ export const musicArr: Array<ImusicArr> = [
 ];
 
 // // 31
-// export const lawArr = [
-//   { topicName: "Constitution", description: "Understand fundamental rights, directive principles, and duties that form the foundation of Indian democracy. Learn how the separation of powers protects citizens." },
-//   { topicName: "Contract Law", description: "Learn how agreements become legally binding through offer, acceptance, and consideration. Understand breach, remedies, and why clear written contracts matter." },
-//   { topicName: "Criminal Law", description: "Study offences, punishments, and procedures from FIR to trial. Understand the roles of police, courts, and the rights of the accused and victims." },
-//   { topicName: "Consumer Rights", description: "Know your protections as a buyer against defective goods, unfair practices, and misleading ads. Learn how to file complaints in consumer forums." },
-//   { topicName: "Cyber Law", description: "Understand laws governing online activities, data protection, hacking, and digital signatures. Learn your rights and responsibilities in the digital world." },
-//   { topicName: "Property Law", description: "Learn about ownership, sale, lease, mortgage, and inheritance of property. Understand registration, titles, and common disputes to avoid legal trouble." },
-//   { topicName: "Intellectual Property", description: "Protect creations through patents, trademarks, copyrights, and designs. Learn how IP rights encourage innovation and safeguard brands." },
-//   { topicName: "Labour Law", description: "Understand employee rights, working hours, wages, and employer duties. Learn about provident fund, gratuity, and dispute resolution at workplaces." },
-//   { topicName: "Family Law", description: "Study marriage, divorce, adoption, custody, and succession rules under different personal laws. Learn how courts protect the interests of families." },
-//   { topicName: "Legal Ethics", description: "Follow professional standards of honesty, confidentiality, and fairness in legal practice. Ethics ensure trust between lawyers, clients, and the justice system." }
-// ];
+export const lawArr: Array<IlawArr> = [
+    { topicName: "Constitution", description: "Understand fundamental rights, directive principles, and duties that form the foundation of Indian democracy. Learn how the separation of powers protects citizens." },
+    { topicName: "Contract Law", description: "Learn how agreements become legally binding through offer, acceptance, and consideration. Understand breach, remedies, and why clear written contracts matter." },
+    { topicName: "Criminal Law", description: "Study offences, punishments, and procedures from FIR to trial. Understand the roles of police, courts, and the rights of the accused and victims." },
+    { topicName: "Consumer Rights", description: "Know your protections as a buyer against defective goods, unfair practices, and misleading ads. Learn how to file complaints in consumer forums." },
+    { topicName: "Cyber Law", description: "Understand laws governing online activities, data protection, hacking, and digital signatures. Learn your rights and responsibilities in the digital world." },
+    { topicName: "Property Law", description: "Learn about ownership, sale, lease, mortgage, and inheritance of property. Understand registration, titles, and common disputes to avoid legal trouble." },
+    { topicName: "Intellectual Property", description: "Protect creations through patents, trademarks, copyrights, and designs. Learn how IP rights encourage innovation and safeguard brands." },
+    { topicName: "Labour Law", description: "Understand employee rights, working hours, wages, and employer duties. Learn about provident fund, gratuity, and dispute resolution at workplaces." },
+    { topicName: "Family Law", description: "Study marriage, divorce, adoption, custody, and succession rules under different personal laws. Learn how courts protect the interests of families." },
+    { topicName: "Legal Ethics", description: "Follow professional standards of honesty, confidentiality, and fairness in legal practice. Ethics ensure trust between lawyers, clients, and the justice system." }
+];
 
 // // 32
-// export const architectureArr = [
-//   { subject: "Civil Engineering", info: "Design and build roads, bridges, dams, and buildings that serve society. Learn surveying, materials, and construction management for safe infrastructure." },
-//   { subject: "Structural Design", info: "Ensure buildings can safely bear loads from people, wind, and earthquakes. Understand beams, columns, foundations, and structural analysis basics." },
-//   { subject: "Urban Planning", info: "Shape cities for living, work, and transport through zoning, public spaces, and utilities. Plan for growth, traffic, and sustainability." },
-//   { subject: "Interior Design", info: "Create functional and beautiful indoor spaces using layout, lighting, color, and furniture. Balance comfort, style, and budget for homes and offices." },
-//   { subject: "Sustainable Buildings", info: "Reduce energy and water use with green construction, natural ventilation, and solar panels. Learn about certifications like LEED and GRIHA." },
-//   { subject: "Building Materials", info: "Choose concrete, steel, brick, glass, and eco-friendly options based on strength, cost, and durability. Understand how materials affect safety and comfort." },
-//   { subject: "CAD Drawing", info: "Draft precise 2D and 3D plans using software like AutoCAD and Revit. Learn layers, dimensions, and standards for professional drawings." },
-//   { subject: "Landscape Design", info: "Blend gardens, pathways, and outdoor spaces with structures for harmony with nature. Select plants and layouts that suit climate and usage." },
-//   { subject: "Smart Homes", info: "Integrate automation for lighting, security, climate, and appliances into residential design. Learn how sensors and apps improve comfort and efficiency." },
-//   { subject: "Heritage Conservation", info: "Preserve and restore historic buildings and monuments using traditional methods and modern science. Protect cultural identity for future generations." }
-// ];
+export const architectureArr: Array<IarchitectureArr> = [
+    { subject: "Civil Engineering", info: "Design and build roads, bridges, dams, and buildings that serve society. Learn surveying, materials, and construction management for safe infrastructure." },
+    { subject: "Structural Design", info: "Ensure buildings can safely bear loads from people, wind, and earthquakes. Understand beams, columns, foundations, and structural analysis basics." },
+    { subject: "Urban Planning", info: "Shape cities for living, work, and transport through zoning, public spaces, and utilities. Plan for growth, traffic, and sustainability." },
+    { subject: "Interior Design", info: "Create functional and beautiful indoor spaces using layout, lighting, color, and furniture. Balance comfort, style, and budget for homes and offices." },
+    { subject: "Sustainable Buildings", info: "Reduce energy and water use with green construction, natural ventilation, and solar panels. Learn about certifications like LEED and GRIHA." },
+    { subject: "Building Materials", info: "Choose concrete, steel, brick, glass, and eco-friendly options based on strength, cost, and durability. Understand how materials affect safety and comfort." },
+    { subject: "CAD Drawing", info: "Draft precise 2D and 3D plans using software like AutoCAD and Revit. Learn layers, dimensions, and standards for professional drawings." },
+    { subject: "Landscape Design", info: "Blend gardens, pathways, and outdoor spaces with structures for harmony with nature. Select plants and layouts that suit climate and usage." },
+    { subject: "Smart Homes", info: "Integrate automation for lighting, security, climate, and appliances into residential design. Learn how sensors and apps improve comfort and efficiency." },
+    { subject: "Heritage Conservation", info: "Preserve and restore historic buildings and monuments using traditional methods and modern science. Protect cultural identity for future generations." }
+];
 
 // // 33
 // export const agricultureArr = [
